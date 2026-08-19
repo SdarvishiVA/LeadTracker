@@ -1,0 +1,2082 @@
+{
+  "generated_at": "2026-08-19T19:15:54.988244+00:00",
+  "demo_mode": true,
+  "sources_read_ok": [
+    "Suzana",
+    "Raph"
+  ],
+  "errors": [],
+  "totals": {
+    "leads": 293,
+    "responded": 230,
+    "response_rate": 0.785,
+    "qualified": 0,
+    "qualify_rate": 0.0
+  },
+  "by_broker": [
+    {
+      "broker": "Suzana",
+      "leads": 197,
+      "responded": 147,
+      "response_rate": 0.7462,
+      "qualified": 0,
+      "qualify_rate": 0.0
+    },
+    {
+      "broker": "Raph",
+      "leads": 96,
+      "responded": 83,
+      "response_rate": 0.8646,
+      "qualified": 0,
+      "qualify_rate": 0.0
+    }
+  ],
+  "by_source": [
+    {
+      "source": "Instagram Ad",
+      "leads": 45,
+      "responded": 27,
+      "response_rate": 0.6
+    },
+    {
+      "source": "COI Referral",
+      "leads": 24,
+      "responded": 22,
+      "response_rate": 0.9167
+    },
+    {
+      "source": "Referral",
+      "leads": 1,
+      "responded": 1,
+      "response_rate": 1.0
+    },
+    {
+      "source": "Property Listing",
+      "leads": 27,
+      "responded": 14,
+      "response_rate": 0.5185
+    },
+    {
+      "source": "Cold Outreach",
+      "leads": 4,
+      "responded": 3,
+      "response_rate": 0.75
+    },
+    {
+      "source": "LinkedIn",
+      "leads": 7,
+      "responded": 7,
+      "response_rate": 1.0
+    },
+    {
+      "source": "Networking Event",
+      "leads": 23,
+      "responded": 23,
+      "response_rate": 1.0
+    },
+    {
+      "source": "Past Client/Contact",
+      "leads": 1,
+      "responded": 0,
+      "response_rate": 0.0
+    },
+    {
+      "source": "Other",
+      "leads": 4,
+      "responded": 3,
+      "response_rate": 0.75
+    }
+  ],
+  "by_week": [
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 23,
+      "responded": 20,
+      "Suzana": 23,
+      "Raph": 0
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 69,
+      "responded": 56,
+      "Suzana": 31,
+      "Raph": 38
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 34,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 18,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Jul 27 - Aug 1",
+      "total": 28,
+      "responded": 23,
+      "Suzana": 17,
+      "Raph": 11
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 44,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 54,
+      "responded": 45,
+      "Suzana": 31,
+      "Raph": 23
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 10,
+      "responded": 1,
+      "Suzana": 10,
+      "Raph": 0
+    }
+  ],
+  "by_disqualification_reason": [
+    {
+      "reason": "Insufficient Funds/Equity",
+      "count": 0
+    },
+    {
+      "reason": "Not Serious/Just Browsing",
+      "count": 0
+    },
+    {
+      "reason": "Residential Only (Not Multi-Res/Commercial)",
+      "count": 0
+    },
+    {
+      "reason": "Wrong Deal Size or Type",
+      "count": 0
+    },
+    {
+      "reason": "Timing Not Ready",
+      "count": 0
+    },
+    {
+      "reason": "Unreachable",
+      "count": 0
+    },
+    {
+      "reason": "Other",
+      "count": 0
+    }
+  ]
+}

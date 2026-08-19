@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VA Capital — Lead Performance Statement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:        #F4F6F1;
+    --paper:     #FDFEFC;
+    --ink:       #1E2420;
+    --ink-soft:  #4B554D;
+    --green:     #0F411E;
+    --green-mid: #1F7740;
+    --rule:      #D7DED2;
+    --rule-soft: #E8ECE4;
+    --rust:      #9A4B2F;
+    --gold:      #B08A3E;
+  }
+
+  *{ box-sizing:border-box; }
+  html{ -webkit-font-smoothing:antialiased; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Montserrat',sans-serif;
+    padding:48px 20px 80px;
+  }
+
+  .sheet{
+    max-width:960px;
+    margin:0 auto;
+    background:var(--paper);
+    border:1px solid var(--rule);
+    box-shadow:0 1px 2px rgba(15,65,30,0.04), 0 12px 40px rgba(15,65,30,0.05);
+  }
+
+  /* ---------- Letterhead ---------- */
+  .letterhead{
+    padding:36px 48px 28px;
+    border-bottom:3px solid var(--green);
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .wordmark{
+    font-family:'Libre Baskerville',serif;
+    font-size:22px;
+    letter-spacing:0.04em;
+    color:var(--green);
+    font-weight:700;
+  }
+  .wordmark span{ color:var(--green-mid); }
+  .eyebrow{
+    font-size:10.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-top:4px;
+  }
+  .statement-meta{
+    text-align:right;
+    font-size:10.5px;
+    letter-spacing:0.06em;
+    color:var(--ink-soft);
+    line-height:1.6;
+    text-transform:uppercase;
+  }
+  .statement-meta b{ color:var(--ink); font-weight:600; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:40px 48px 32px;
+    border-bottom:1px solid var(--rule);
+    display:grid;
+    grid-template-columns:1.3fr 1fr 1fr 1fr;
+    gap:32px;
+    align-items:end;
+  }
+  .hero-figure .label{
+    font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase;
+    color:var(--ink-soft); margin-bottom:8px;
+  }
+  .hero-figure .num{
+    font-family:'Libre Baskerville',serif;
+    font-weight:700;
+    color:var(--green);
+    line-height:1;
+    font-variant-numeric:tabular-nums;
+  }
+  .hero-figure.primary .num{ font-size:64px; }
+  .hero-figure .num{ font-size:32px; }
+  .hero-figure .sub{ font-size:11px; color:var(--ink-soft); margin-top:6px; }
+  .hero-figure .sub.up{ color:var(--green-mid); }
+
+  /* ---------- Section shell ---------- */
+  .section{ padding:32px 48px; border-bottom:1px solid var(--rule); }
+  .section:last-of-type{ border-bottom:none; }
+  .section-title{
+    font-family:'Libre Baskerville',serif;
+    font-style:italic;
+    font-size:17px;
+    color:var(--green);
+    margin:0 0 18px;
+  }
+
+  /* ---------- Ledger table (Broker) ---------- */
+  table.ledger{ width:100%; border-collapse:collapse; font-size:13.5px; }
+  table.ledger thead th{
+    text-align:right;
+    font-size:10px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:600;
+    padding:0 0 10px; border-bottom:1px solid var(--rule);
+  }
+  table.ledger thead th:first-child{ text-align:left; }
+  table.ledger td{
+    padding:13px 0;
+    border-bottom:1px solid var(--rule-soft);
+    text-align:right;
+    font-variant-numeric:tabular-nums;
+  }
+  table.ledger td:first-child{
+    text-align:left; font-weight:600; color:var(--ink);
+  }
+  table.ledger tr.total td{
+    border-top:2px solid var(--green); border-bottom:none;
+    font-weight:700; padding-top:14px;
+  }
+  table.ledger tr.total td:first-child{ color:var(--green); }
+  .rate-pill{
+    display:inline-block; min-width:52px;
+    font-weight:600;
+  }
+  .rate-pill.good{ color:var(--green-mid); }
+  .rate-pill.warn{ color:var(--gold); }
+  .rate-pill.low{ color:var(--rust); }
+
+  /* ---------- Source bars ---------- */
+  .source-row{
+    display:grid;
+    grid-template-columns:160px 1fr 90px 70px;
+    align-items:center;
+    gap:16px;
+    padding:10px 0;
+    border-bottom:1px solid var(--rule-soft);
+    font-size:12.5px;
+  }
+  .source-row:last-child{ border-bottom:none; }
+  .source-name{ font-weight:600; }
+  .bar-track{ height:8px; background:var(--rule-soft); position:relative; }
+  .bar-fill{ height:100%; background:var(--green-mid); }
+  .source-count{ text-align:right; color:var(--ink-soft); font-variant-numeric:tabular-nums; }
+  .source-rate{ text-align:right; font-weight:600; font-variant-numeric:tabular-nums; }
+
+  /* ---------- Two-col grid ---------- */
+  .grid-2{ display:grid; grid-template-columns:1.4fr 1fr; gap:40px; }
+
+  /* ---------- Reasons list ---------- */
+  .reason-row{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:9px 0; border-bottom:1px solid var(--rule-soft);
+    font-size:12.5px;
+  }
+  .reason-row:last-child{ border-bottom:none; }
+  .reason-count{ font-variant-numeric:tabular-nums; font-weight:600; color:var(--ink-soft); }
+
+  /* ---------- Chart ---------- */
+  .chart-wrap{ height:220px; }
+
+  /* ---------- Footer ---------- */
+  .foot{
+    padding:22px 48px 30px;
+    font-size:10px; color:var(--ink-soft);
+    letter-spacing:0.04em;
+    display:flex; justify-content:space-between;
+  }
+
+  .empty-note{ font-size:11.5px; color:var(--ink-soft); font-style:italic; }
+
+  @media (max-width:720px){
+    .hero{ grid-template-columns:1fr 1fr; }
+    .grid-2{ grid-template-columns:1fr; }
+    .letterhead{ flex-direction:column; align-items:flex-start; gap:10px; }
+    .statement-meta{ text-align:left; }
+    .source-row{ grid-template-columns:110px 1fr 60px 50px; gap:10px; }
+  }
+
+  @media (prefers-reduced-motion:no-preference){
+    .sheet{ animation:rise .5s ease-out; }
+    @keyframes rise{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;} }
+  }
+</style>
+</head>
+<body>
+
+<div class="sheet" id="sheet">
+
+  <div class="letterhead">
+    <div>
+      <div class="wordmark">VA CAPITAL<span> · LEAD STATEMENT</span></div>
+      <div class="eyebrow">Broker origination performance</div>
+    </div>
+    <div class="statement-meta">
+      <div>Statement issued <b id="issued-date">—</b></div>
+      <div>Sources reporting: <b id="sources-ok">—</b></div>
+    </div>
+  </div>
+
+  <div class="hero" id="hero"></div>
+
+  <div class="section">
+    <div class="section-title">By broker</div>
+    <table class="ledger" id="broker-table"></table>
+  </div>
+
+  <div class="section grid-2">
+    <div>
+      <div class="section-title">By source</div>
+      <div id="source-list"></div>
+    </div>
+    <div>
+      <div class="section-title">Why leads don't qualify</div>
+      <div id="reason-list"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Weekly volume</div>
+    <div class="chart-wrap"><canvas id="weekChart"></canvas></div>
+  </div>
+
+  <div class="foot">
+    <span>VA Capital — internal use only</span>
+    <span id="foot-generated">—</span>
+  </div>
+
+</div>
+
+<script>
+const BROKER_COLORS = ['#0F411E', '#1F7740', '#B08A3E', '#9A4B2F', '#4B554D'];
+
+function rateClass(r){
+  if (r >= 0.7) return 'good';
+  if (r >= 0.4) return 'warn';
+  return 'low';
+}
+function pct(x){ return (x*100).toFixed(1) + '%'; }
+
+async function load(){
+  let data;
+  try{
+    const res = await fetch('dashboard_data.json', {cache:'no-store'});
+    data = await res.json();
+  }catch(e){
+    document.getElementById('sheet').innerHTML =
+      '<div class="section"><div class="section-title">Statement unavailable</div>' +
+      '<p class="empty-note">dashboard_data.json could not be loaded. Check that the aggregator job ran and the file sits alongside this page.</p></div>';
+    return;
+  }
+
+  const genDate = new Date(data.generated_at);
+  document.getElementById('issued-date').textContent =
+    genDate.toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
+  document.getElementById('sources-ok').textContent = data.sources_read_ok.join(', ') || 'none';
+  if (data.demo_mode){
+    const banner = document.createElement('div');
+    banner.style.cssText = 'background:#B08A3E;color:#FDFEFC;text-align:center;padding:8px 16px;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;font-weight:600;';
+    banner.textContent = 'Demo mode — showing sample data. Live Box connection not yet configured.';
+    document.getElementById('sheet').prepend(banner);
+  }
+  document.getElementById('foot-generated').textContent =
+    'Generated ' + genDate.toLocaleString('en-US', {dateStyle:'medium', timeStyle:'short'}) +
+    (data.errors.length ? '  ·  ' + data.errors.length + ' source error(s) — see log' : '');
+
+  // ---- Hero ----
+  const t = data.totals;
+  document.getElementById('hero').innerHTML = `
+    <div class="hero-figure primary">
+      <div class="label">Total leads</div>
+      <div class="num">${t.leads}</div>
+      <div class="sub">across ${data.sources_read_ok.length} broker${data.sources_read_ok.length===1?'':'s'}</div>
+    </div>
+    <div class="hero-figure">
+      <div class="label">Responded</div>
+      <div class="num">${t.responded}</div>
+      <div class="sub up">${pct(t.response_rate)} response rate</div>
+    </div>
+    <div class="hero-figure">
+      <div class="label">Qualified</div>
+      <div class="num">${t.qualified}</div>
+      <div class="sub">${pct(t.qualify_rate)} qualify rate</div>
+    </div>
+    <div class="hero-figure">
+      <div class="label">Not qualified</div>
+      <div class="num">${t.responded - t.qualified}</div>
+      <div class="sub">of responded leads</div>
+    </div>
+  `;
+
+  // ---- Broker table ----
+  let rows = data.by_broker.map(b => `
+    <tr>
+      <td>${b.broker}</td>
+      <td>${b.leads}</td>
+      <td>${b.responded}</td>
+      <td><span class="rate-pill ${rateClass(b.response_rate)}">${pct(b.response_rate)}</span></td>
+      <td>${b.qualified}</td>
+      <td><span class="rate-pill ${rateClass(b.qualify_rate)}">${pct(b.qualify_rate)}</span></td>
+    </tr>`).join('');
+  const totalLeads = data.by_broker.reduce((s,b)=>s+b.leads,0);
+  const totalResp  = data.by_broker.reduce((s,b)=>s+b.responded,0);
+  const totalQual  = data.by_broker.reduce((s,b)=>s+b.qualified,0);
+  rows += `
+    <tr class="total">
+      <td>Total</td>
+      <td>${totalLeads}</td>
+      <td>${totalResp}</td>
+      <td>${pct(totalLeads?totalResp/totalLeads:0)}</td>
+      <td>${totalQual}</td>
+      <td>${pct(totalLeads?totalQual/totalLeads:0)}</td>
+    </tr>`;
+  document.getElementById('broker-table').innerHTML = `
+    <thead><tr>
+      <th>Broker</th><th>Leads</th><th>Responded</th><th>Resp. rate</th><th>Qualified</th><th>Qual. rate</th>
+    </tr></thead><tbody>${rows}</tbody>`;
+
+  // ---- Source list ----
+  const maxSourceLeads = Math.max(...data.by_source.map(s=>s.leads), 1);
+  document.getElementById('source-list').innerHTML = data.by_source
+    .sort((a,b)=>b.leads-a.leads)
+    .map(s => `
+      <div class="source-row">
+        <div class="source-name">${s.source}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(s.leads/maxSourceLeads*100).toFixed(0)}%"></div></div>
+        <div class="source-count">${s.leads} leads</div>
+        <div class="source-rate">${pct(s.response_rate)}</div>
+      </div>`).join('');
+
+  // ---- Reasons list ----
+  const reasons = data.by_disqualification_reason.filter(r=>r.count>0);
+  document.getElementById('reason-list').innerHTML = reasons.length
+    ? reasons.sort((a,b)=>b.count-a.count).map(r => `
+        <div class="reason-row"><span>${r.reason}</span><span class="reason-count">${r.count}</span></div>`).join('')
+    : '<p class="empty-note">No disqualifications logged yet — brokers haven\'t started filling in Qualified?/Reason Not Qualified.</p>';
+
+  // ---- Weekly chart ----
+  const brokers = data.by_broker.map(b=>b.broker);
+  const ctx = document.getElementById('weekChart').getContext('2d');
+  new Chart(ctx, {
+    type:'line',
+    data:{
+      labels: data.by_week.map(w=>w.week_of),
+      datasets: brokers.map((b,i) => ({
+        label:b,
+        data:data.by_week.map(w=>w[b]||0),
+        borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
+        backgroundColor:BROKER_COLORS[i%BROKER_COLORS.length]+'22',
+        borderWidth:2,
+        pointRadius:3,
+        pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
+        tension:0.25,
+        fill:false
+      }))
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{ position:'bottom', labels:{ font:{family:"'Montserrat'", size:11}, color:'#4B554D', boxWidth:10, usePointStyle:true } }
+      },
+      scales:{
+        x:{ grid:{display:false}, ticks:{font:{family:"'Montserrat'", size:10}, color:'#4B554D'} },
+        y:{ beginAtZero:true, grid:{color:'#E8ECE4'}, ticks:{font:{family:"'Montserrat'", size:10}, color:'#4B554D'} }
+      }
+    }
+  });
+}
+
+load();
+</script>
+</body>
+</html>
