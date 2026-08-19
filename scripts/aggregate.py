@@ -107,6 +107,8 @@ def read_broker(broker, file_like_or_path):
                 "date": date.strftime("%Y-%m-%d") if isinstance(date, datetime.datetime) else None,
                 "_date_obj": date if isinstance(date, datetime.datetime) else None,
                 "name": str(name),
+                "company": ws.cell(row=r, column=idx["Company"] + 1).value if "Company" in idx else None,
+                "prospect_type": ws.cell(row=r, column=idx["Prospect Type"] + 1).value if "Prospect Type" in idx else None,
                 "source": ws.cell(row=r, column=idx["Source of Lead"] + 1).value,
                 "responded": ws.cell(row=r, column=idx["Responded?"] + 1).value,
                 "qualified": ws.cell(row=r, column=idx["Qualified?"] + 1).value,
@@ -203,6 +205,25 @@ def build():
 
     by_reason = [{"reason": r, "count": sum(1 for x in all_rows if x["reason"] == r)} for r in REASONS]
 
+    leads_out = sorted(
+        [
+            {
+                "broker": r["broker"],
+                "date": r["date"],
+                "name": r["name"],
+                "company": r["company"],
+                "prospect_type": r["prospect_type"],
+                "source": r["source"],
+                "responded": r["responded"],
+                "qualified": r["qualified"],
+                "reason": r["reason"],
+            }
+            for r in all_rows
+        ],
+        key=lambda x: x["date"] or "",
+        reverse=True,
+    )
+
     return {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "demo_mode": DEMO_MODE,
@@ -218,6 +239,7 @@ def build():
         "by_source": by_source,
         "by_week": by_week,
         "by_disqualification_reason": by_reason,
+        "leads": leads_out,
     }
 
 
