@@ -52,6 +52,14 @@
   }
   .demo-flag::before{ content:''; width:6px; height:6px; border-radius:50%; background:var(--strong); }
 
+  .refresh-btn{
+    font-family:var(--sans); font-size:11.5px; font-weight:600; padding:5px 12px;
+    border-radius:20px; border:1px solid var(--line-2); background:var(--surface-2);
+    color:var(--ink-2); cursor:pointer;
+  }
+  .refresh-btn:hover{ background:var(--line); }
+  .refresh-btn:disabled{ opacity:.5; cursor:default; }
+
   .kpis{
     display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
     margin:28px 0 32px;
@@ -128,6 +136,27 @@
     text-align:center; font-size:11.5px; color:var(--ink-3); padding-top:8px;
   }
 
+  /* ---------- Range toggle ---------- */
+  .range-toggle{
+    display:flex; align-items:center; gap:8px; margin:24px 0 0;
+    flex-wrap:wrap;
+  }
+  .range-btn{
+    font-family:var(--sans); font-size:12.5px; font-weight:600; padding:7px 16px;
+    border-radius:20px; border:1px solid var(--line-2); background:var(--surface);
+    color:var(--ink-2); cursor:pointer; transition:all .12s;
+  }
+  .range-btn:hover{ background:var(--surface-2); }
+  .range-btn.active{
+    background:var(--green); border-color:var(--green); color:#fff;
+  }
+  .range-note{ font-size:12px; color:var(--ink-3); margin-left:4px; }
+
+  .summary-line{
+    font-size:15px; color:var(--ink-2); margin:14px 2px 0; font-weight:500;
+  }
+  .summary-line b{ color:var(--ink); font-weight:700; }
+
   /* ---------- Filters + leads table ---------- */
   .filters{
     display:flex; flex-wrap:wrap; gap:10px; margin-bottom:16px;
@@ -179,11 +208,15 @@
       <div class="meta-line">
         <span id="sources-line">—</span>
         <span id="demo-flag-slot"></span>
+        <button id="refresh-btn" class="refresh-btn">↻ Refresh</button>
       </div>
     </div>
   </div>
 
   <div class="wrap">
+
+    <div class="range-toggle" id="range-toggle"></div>
+    <p class="summary-line" id="summary-line"></p>
 
     <div class="kpis" id="kpis"></div>
 
@@ -201,6 +234,11 @@
         <div class="card-head"><span class="card-title">Why leads don't qualify</span></div>
         <div class="card-body" id="reason-list"></div>
       </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="card-title">Deal type</span></div>
+      <div class="card-body"><div class="chart-wrap" style="height:200px;"><canvas id="typeChart"></canvas></div></div>
     </div>
 
     <div class="card">
@@ -231,15 +269,22 @@ function rateClass(r){
 }
 function pct(x){ return (x*100).toFixed(1) + '%'; }
 
-async function load(){
+let weekChartInstance = null;
+let typeChartInstance = null;
+
+async function load(isRefresh){
+  const btn = document.getElementById('refresh-btn');
+  if (isRefresh){ btn.disabled = true; btn.textContent = '↻ Refreshing…'; }
+
   let data;
   try{
-    const res = await fetch('dashboard_data.json', {cache:'no-store'});
+    const res = await fetch('dashboard_data.json?t=' + Date.now(), {cache:'no-store'});
     data = await res.json();
   }catch(e){
     document.querySelector('.wrap').innerHTML =
       '<div class="card"><div class="card-head"><span class="card-title">Statement unavailable</span></div>' +
       '<div class="card-body"><p class="empty-note">dashboard_data.json could not be loaded. Check that the pipeline ran and the file sits alongside this page.</p></div></div>';
+    if (isRefresh){ btn.disabled = false; btn.textContent = '↻ Refresh'; }
     return;
   }
 
@@ -253,76 +298,179 @@ async function load(){
     'Generated ' + genDate.toLocaleString('en-US', {dateStyle:'medium', timeStyle:'short'}) +
     (data.errors.length ? '  ·  ' + data.errors.length + ' source error(s)' : '');
 
-  const t = data.totals;
-  document.getElementById('kpis').innerHTML = `
-    <div class="kpi">
-      <div class="label">Total leads</div>
-      <div class="value">${t.leads}</div>
-      <div class="sub">across ${data.sources_read_ok.length} broker${data.sources_read_ok.length===1?'':'s'}</div>
-    </div>
-    <div class="kpi">
-      <div class="label">Responded</div>
-      <div class="value accent">${t.responded}</div>
-      <div class="sub up">${pct(t.response_rate)} response rate</div>
-    </div>
-    <div class="kpi">
-      <div class="label">Qualified</div>
-      <div class="value">${t.qualified}</div>
-      <div class="sub">${pct(t.qualify_rate)} qualify rate</div>
-    </div>
-    <div class="kpi">
-      <div class="label">Not qualified</div>
-      <div class="value">${t.responded - t.qualified}</div>
-      <div class="sub">of responded leads</div>
-    </div>
-  `;
+  // ---- Range toggle: derive KPIs/broker/source/reasons from filtered leads ----
+  const REASONS_ORDER = ["Insufficient Funds/Equity","Not Serious/Just Browsing",
+    "Residential Only (Not Multi-Res/Commercial)","Wrong Deal Size or Type",
+    "Timing Not Ready","Unreachable","Other"];
 
-  let rows = data.by_broker.map(b => `
-    <tr>
-      <td>${b.broker}</td>
-      <td>${b.leads}</td>
-      <td>${b.responded}</td>
-      <td><span class="badge ${rateClass(b.response_rate)}">${pct(b.response_rate)}</span></td>
-      <td>${b.qualified}</td>
-      <td><span class="badge ${rateClass(b.qualify_rate)}">${pct(b.qualify_rate)}</span></td>
-    </tr>`).join('');
-  const totalLeads = data.by_broker.reduce((s,b)=>s+b.leads,0);
-  const totalResp  = data.by_broker.reduce((s,b)=>s+b.responded,0);
-  const totalQual  = data.by_broker.reduce((s,b)=>s+b.qualified,0);
-  rows += `
-    <tr class="total">
-      <td>Total</td>
-      <td>${totalLeads}</td>
-      <td>${totalResp}</td>
-      <td>${pct(totalLeads?totalResp/totalLeads:0)}</td>
-      <td>${totalQual}</td>
-      <td>${pct(totalLeads?totalQual/totalLeads:0)}</td>
+  const datedLeads = data.leads.filter(l => l.date);
+  const maxDate = datedLeads.length
+    ? new Date(datedLeads.reduce((a,b)=> a > b.date ? a : b.date, datedLeads[0].date))
+    : null;
+
+  function mondayOf(d){
+    const day = (d.getDay()+6)%7; // Mon=0..Sun=6
+    const m = new Date(d); m.setDate(d.getDate()-day); m.setHours(0,0,0,0);
+    return m;
+  }
+  function inRange(dateStr, range){
+    if (!maxDate || !dateStr || range === 'all') return range === 'all';
+    const d = new Date(dateStr);
+    if (range === 'week'){
+      const mon = mondayOf(maxDate);
+      const sat = new Date(mon); sat.setDate(mon.getDate()+5); sat.setHours(23,59,59,999);
+      return d >= mon && d <= sat;
+    }
+    if (range === 'month'){
+      const start = new Date(maxDate); start.setDate(maxDate.getDate()-29); start.setHours(0,0,0,0);
+      return d >= start && d <= maxDate;
+    }
+    return true;
+  }
+
+  let currentRange = 'week';
+
+  function rangeLabel(range){
+    if (range==='week') return 'Last work week';
+    if (range==='month') return 'Last 30 days';
+    return 'All time';
+  }
+
+  function renderRangeToggle(){
+    document.getElementById('range-toggle').innerHTML = `
+      <button class="range-btn ${currentRange==='week'?'active':''}" data-r="week">Last work week</button>
+      <button class="range-btn ${currentRange==='month'?'active':''}" data-r="month">Month</button>
+      <button class="range-btn ${currentRange==='all'?'active':''}" data-r="all">All time</button>
+      <span class="range-note">${rangeLabel(currentRange)}${maxDate?' · through '+maxDate.toISOString().slice(0,10):''}</span>
+    `;
+    document.querySelectorAll('.range-btn').forEach(btn=>{
+      btn.addEventListener('click', ()=>{ currentRange = btn.dataset.r; renderRangeToggle(); renderSummary(); });
+    });
+  }
+
+  function renderSummary(){
+    const scoped = data.leads.filter(l => inRange(l.date, currentRange));
+
+    const total = scoped.length;
+    const responded = scoped.filter(l=>l.responded==='Yes').length;
+    const qualified = scoped.filter(l=>l.qualified==='Yes').length;
+    const brokerCount = new Set(scoped.map(l=>l.broker)).size;
+
+    const rangePrefix = currentRange==='week' ? 'This work week' : currentRange==='month' ? 'In the last 30 days' : 'All time';
+    document.getElementById('summary-line').innerHTML =
+      `${rangePrefix}: <b>${total}</b> new lead${total===1?'':'s'}, <b>${responded}</b> responded (<b>${pct(total?responded/total:0)}</b>).`;
+
+    const owns = scoped.filter(l=>l.owns_commercial==='Yes').length;
+    const newToCommercial = scoped.filter(l=>l.owns_commercial==='No').length;
+
+    document.getElementById('kpis').innerHTML = `
+      <div class="kpi">
+        <div class="label">Total leads</div>
+        <div class="value">${total}</div>
+        <div class="sub">across ${brokerCount} broker${brokerCount===1?'':'s'}</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Responded</div>
+        <div class="value accent">${responded}</div>
+        <div class="sub up">${pct(total?responded/total:0)} response rate</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Own commercial property</div>
+        <div class="value">${owns}</div>
+        <div class="sub">${pct(total?owns/total:0)} of leads</div>
+      </div>
+      <div class="kpi">
+        <div class="label">New to commercial</div>
+        <div class="value">${newToCommercial}</div>
+        <div class="sub">${pct(total?newToCommercial/total:0)} of leads</div>
+      </div>
+    `;
+
+    const brokers = [...new Set(scoped.map(l=>l.broker))].sort();
+    let rows = brokers.map(b => {
+      const bRows = scoped.filter(l=>l.broker===b);
+      const n = bRows.length;
+      const resp = bRows.filter(l=>l.responded==='Yes').length;
+      const own = bRows.filter(l=>l.owns_commercial==='Yes').length;
+      return `<tr>
+        <td>${b}</td><td>${n}</td><td>${resp}</td>
+        <td><span class="badge ${rateClass(n?resp/n:0)}">${pct(n?resp/n:0)}</span></td>
+        <td>${own}</td>
+        <td><span class="badge ${rateClass(n?own/n:0)}">${pct(n?own/n:0)}</span></td>
+      </tr>`;
+    }).join('');
+    rows += `<tr class="total">
+      <td>Total</td><td>${total}</td><td>${responded}</td>
+      <td>${pct(total?responded/total:0)}</td><td>${owns}</td>
+      <td>${pct(total?owns/total:0)}</td>
     </tr>`;
-  document.getElementById('broker-table').innerHTML = `
-    <thead><tr>
-      <th>Broker</th><th>Leads</th><th>Responded</th><th>Resp. rate</th><th>Qualified</th><th>Qual. rate</th>
-    </tr></thead><tbody>${rows}</tbody>`;
+    document.getElementById('broker-table').innerHTML = `
+      <thead><tr>
+        <th>Broker</th><th>Leads</th><th>Responded</th><th>Resp. rate</th><th>Own Property</th><th>Ownership rate</th>
+      </tr></thead><tbody>${rows}</tbody>`;
 
-  const maxSourceLeads = Math.max(...data.by_source.map(s=>s.leads), 1);
-  document.getElementById('source-list').innerHTML = data.by_source
-    .sort((a,b)=>b.leads-a.leads)
-    .map(s => `
-      <div class="source-row">
-        <div class="source-name">${s.source}</div>
-        <div class="bar-track"><div class="bar-fill" style="width:${(s.leads/maxSourceLeads*100).toFixed(0)}%"></div></div>
-        <div class="source-count">${s.leads}</div>
-        <div class="source-rate">${pct(s.response_rate)}</div>
-      </div>`).join('');
+    const sources = [...new Set(scoped.map(l=>l.source).filter(Boolean))];
+    const sourceStats = sources.map(s=>{
+      const sRows = scoped.filter(l=>l.source===s);
+      const n = sRows.length;
+      const resp = sRows.filter(l=>l.responded==='Yes').length;
+      return { source:s, leads:n, response_rate: n?resp/n:0 };
+    }).sort((a,b)=>b.leads-a.leads);
+    const maxSourceLeads = Math.max(...sourceStats.map(s=>s.leads), 1);
+    document.getElementById('source-list').innerHTML = sourceStats.length
+      ? sourceStats.map(s => `
+        <div class="source-row">
+          <div class="source-name">${s.source}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(s.leads/maxSourceLeads*100).toFixed(0)}%"></div></div>
+          <div class="source-count">${s.leads}</div>
+          <div class="source-rate">${pct(s.response_rate)}</div>
+        </div>`).join('')
+      : '<p class="empty-note">No leads in this range.</p>';
 
-  const reasons = data.by_disqualification_reason.filter(r=>r.count>0);
-  document.getElementById('reason-list').innerHTML = reasons.length
-    ? reasons.sort((a,b)=>b.count-a.count).map(r => `
-        <div class="reason-row"><span>${r.reason}</span><span class="reason-count">${r.count}</span></div>`).join('')
-    : '<p class="empty-note">No disqualifications logged yet — brokers haven\'t started filling in Qualified?/Reason Not Qualified.</p>';
+    const reasonCounts = REASONS_ORDER.map(r => ({
+      reason:r, count: scoped.filter(l=>l.reason===r).length
+    })).filter(r=>r.count>0).sort((a,b)=>b.count-a.count);
+    document.getElementById('reason-list').innerHTML = reasonCounts.length
+      ? reasonCounts.map(r => `
+          <div class="reason-row"><span>${r.reason}</span><span class="reason-count">${r.count}</span></div>`).join('')
+      : '<p class="empty-note">No disqualifications logged yet in this range.</p>';
 
-  const brokers = data.by_broker.map(b=>b.broker);
+    // ---- Deal type chart (Acquisition / Construction / Refinance / Other), scoped to range ----
+    const TYPE_ORDER = ['Acquisition','Construction','Refinance','Other'];
+    const typeCounts = TYPE_ORDER.map(t => scoped.filter(l => l.type === t).length);
+
+    if (typeChartInstance) typeChartInstance.destroy();
+    const typeCtx = document.getElementById('typeChart').getContext('2d');
+    typeChartInstance = new Chart(typeCtx, {
+      type: 'bar',
+      data: {
+        labels: TYPE_ORDER,
+        datasets: [{
+          data: typeCounts,
+          backgroundColor: ['#0F7A43','#1D5FA8','#B45309','#6E7C76'],
+          borderRadius: 6,
+          maxBarThickness: 60
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid:{display:false}, ticks:{font:{family:"'Inter'", size:12}, color:'#41504A'} },
+          y: { beginAtZero:true, ticks:{precision:0, font:{family:"'Inter'", size:11}, color:'#6E7C76'}, grid:{color:'#E3E7E4'} }
+        }
+      }
+    });
+  }
+
+  renderRangeToggle();
+  renderSummary();
+
+  // ---- Weekly chart (always full history — a one-week or 30-day trend isn't useful) ----
+  const brokers = [...new Set(data.leads.map(l=>l.broker))].sort();
   const ctx = document.getElementById('weekChart').getContext('2d');
-  new Chart(ctx, {
+  if (weekChartInstance) weekChartInstance.destroy();
+  weekChartInstance = new Chart(ctx, {
     type:'line',
     data:{
       labels: data.by_week.map(w=>w.week_of),
@@ -354,7 +502,7 @@ async function load(){
   const leads = data.leads;
   const uniq = (key) => [...new Set(leads.map(l => l[key]).filter(Boolean))].sort();
 
-  let state = { broker:'', source:'', responded:'', qualified:'', search:'', page:1, pageSize:25 };
+  let state = { broker:'', source:'', responded:'', qualified:'', owns:'', search:'', page:1, pageSize:25 };
 
   function fieldSelect(id, label, options){
     return `<select id="${id}"><option value="">${label}: All</option>` +
@@ -365,11 +513,11 @@ async function load(){
     ${fieldSelect('f-broker','Broker', uniq('broker'))}
     ${fieldSelect('f-source','Source', uniq('source'))}
     ${fieldSelect('f-responded','Responded', ['Yes','No'])}
-    ${fieldSelect('f-qualified','Qualified', ['Yes','No'])}
+    ${fieldSelect('f-owns','Owns Property', ['Yes','No'])}
     <input id="f-search" type="text" placeholder="Search name or company…">
   `;
 
-  ['f-broker','f-source','f-responded','f-qualified'].forEach(id => {
+  ['f-broker','f-source','f-responded','f-owns'].forEach(id => {
     document.getElementById(id).addEventListener('change', e => {
       const key = id.replace('f-','');
       state[key] = e.target.value; state.page = 1; renderTable();
@@ -384,7 +532,7 @@ async function load(){
       (!state.broker || l.broker === state.broker) &&
       (!state.source || l.source === state.source) &&
       (!state.responded || l.responded === state.responded) &&
-      (!state.qualified || l.qualified === state.qualified) &&
+      (!state.owns || l.owns_commercial === state.owns) &&
       (!state.search ||
         (l.name||'').toLowerCase().includes(state.search) ||
         (l.company||'').toLowerCase().includes(state.search))
@@ -407,7 +555,7 @@ async function load(){
     document.getElementById('leads-table').innerHTML = `
       <thead><tr>
         <th>Date</th><th>Broker</th><th>Lead name</th><th>Company</th>
-        <th>Type</th><th>Source</th><th>Responded</th><th>Qualified</th><th>Reason</th>
+        <th>Prospect Type</th><th>Deal Type</th><th>Source</th><th>Responded</th><th>Owns Property</th><th>Qualified</th><th>Reason</th>
       </tr></thead>
       <tbody>${pageRows.map(l => `
         <tr>
@@ -416,11 +564,13 @@ async function load(){
           <td>${l.name}</td>
           <td>${l.company || '—'}</td>
           <td>${l.prospect_type || '—'}</td>
+          <td>${l.type || '—'}</td>
           <td>${l.source || '—'}</td>
           <td class="${qualClass(l.responded)}">${l.responded || '—'}</td>
+          <td class="${qualClass(l.owns_commercial)}">${l.owns_commercial || '—'}</td>
           <td class="${qualClass(l.qualified)}">${l.qualified || '—'}</td>
           <td>${l.reason || '—'}</td>
-        </tr>`).join('') || `<tr><td colspan="9" class="empty-note">No leads match these filters.</td></tr>`}
+        </tr>`).join('') || `<tr><td colspan="11" class="empty-note">No leads match these filters.</td></tr>`}
       </tbody>`;
 
     const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
@@ -437,9 +587,13 @@ async function load(){
   }
 
   renderTable();
+
+  if (isRefresh){ btn.disabled = false; btn.textContent = '↻ Refresh'; }
+  else { btn.disabled = false; }
 }
 
-load();
+document.getElementById('refresh-btn').addEventListener('click', () => load(true));
+load(false);
 </script>
 </body>
 </html>
