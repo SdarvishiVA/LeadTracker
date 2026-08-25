@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-08-25T20:19:27.619300+00:00",
+  "generated_at": "2026-08-25T20:23:18.996947+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
-    "Raph"
+    "Raph",
+    "Kevin"
   ],
-  "errors": [
-    "'Kevin': Box download failed \u2014 HTTPError: 404 Client Error: Not Found for url: https://api.box.com/2.0/files/2426484861293/content"
-  ],
+  "errors": [],
   "totals": {
-    "leads": 309,
-    "responded": 237,
-    "response_rate": 0.767,
+    "leads": 401,
+    "responded": 272,
+    "response_rate": 0.6783,
     "qualified": 0,
     "qualify_rate": 0.0
   },
@@ -29,6 +28,14 @@
       "leads": 101,
       "responded": 83,
       "response_rate": 0.8218,
+      "qualified": 0,
+      "qualify_rate": 0.0
+    },
+    {
+      "broker": "Kevin",
+      "leads": 92,
+      "responded": 35,
+      "response_rate": 0.3804,
       "qualified": 0,
       "qualify_rate": 0.0
     }
@@ -91,1156 +98,1892 @@
   ],
   "by_week": [
     {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
+      "week_of": "Jun 22 - Jun 27",
+      "total": 24,
+      "responded": 23,
+      "Suzana": 0,
+      "Raph": 0,
+      "Kevin": 24
+    },
+    {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
       "week_of": "Jun 29 - Jul 4",
-      "total": 23,
-      "responded": 20,
+      "total": 29,
+      "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 6
     },
     {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jun 29 - Jul 4",
+      "total": 29,
+      "responded": 24,
+      "Suzana": 23,
+      "Raph": 0,
+      "Kevin": 6
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
+      "week_of": "Jul 6 - Jul 11",
+      "total": 81,
+      "responded": 64,
+      "Suzana": 31,
+      "Raph": 38,
+      "Kevin": 12
+    },
+    {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 6 - Jul 11",
-      "total": 69,
-      "responded": 56,
+      "total": 81,
+      "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 0
+      "Kevin": 12
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 13 - Jul 18",
-      "total": 34,
+      "total": 59,
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 0
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 13 - Jul 18",
+      "total": 59,
+      "responded": 26,
+      "Suzana": 33,
+      "Raph": 1,
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
     },
     {
       "week_of": "Jul 20 - Jul 25",
-      "total": 18,
+      "total": 43,
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
+    },
+    {
+      "week_of": "Jul 20 - Jul 25",
+      "total": 43,
+      "responded": 18,
+      "Suzana": 12,
+      "Raph": 6,
+      "Kevin": 25
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -4519,6 +5262,136 @@
       "reason": null
     },
     {
+      "broker": "Kevin",
+      "date": "2026-07-24",
+      "name": "Caroline Francis",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-24",
+      "name": "Catherine Rail",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-24",
+      "name": "David Cyr",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-24",
+      "name": "David Roberge",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-24",
+      "name": "Derrick Blumenthal",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-23",
+      "name": "Andr\u00e9 Desautels",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-23",
+      "name": "Andrew Abdalla",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-23",
+      "name": "Anthony Lucifero",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-23",
+      "name": "Anthony Nitti",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-23",
+      "name": "Brandon Gerstein",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-07-22",
       "name": "Robert Glode",
@@ -4606,6 +5479,136 @@
       "owns_commercial": null,
       "source": null,
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-22",
+      "name": "Aichatou Salifou",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-22",
+      "name": "Albert Pesce",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-22",
+      "name": "Alexander Kmec",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-22",
+      "name": "Alexandre Thai",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-22",
+      "name": "Alissa Kahan",
+      "company": "MNP - Accounting",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-21",
+      "name": "Pierre-Alexandre Bernier",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-21",
+      "name": "S\u00e9bastien N. Falardeau",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-21",
+      "name": "Thomas Kingsley",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-21",
+      "name": "Victoria S. Cormier",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-21",
+      "name": "\u00c9milio De Angelis",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -4701,6 +5704,71 @@
       "reason": null
     },
     {
+      "broker": "Kevin",
+      "date": "2026-07-20",
+      "name": "Mohammad Bahramdaryabeigi",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-20",
+      "name": "Natacha Boivin",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-20",
+      "name": "Nathaly J. Vermette",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-20",
+      "name": "Nicola Di Iorio, Ad. E.",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-20",
+      "name": "Nikoletta Marcolefas, CPHR",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Raph",
       "date": "2026-07-17",
       "name": "Yacine Bouda",
@@ -4710,6 +5778,71 @@
       "owns_commercial": null,
       "source": null,
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-17",
+      "name": "Jos\u00e9e Pilon",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-17",
+      "name": "Kim Toffoli",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-17",
+      "name": "Louis Cl\u00e9ment",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-17",
+      "name": "Mathieu Brunet",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-17",
+      "name": "Mich\u00e8le Freni\u00e8re",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -4857,6 +5990,71 @@
       "reason": null
     },
     {
+      "broker": "Kevin",
+      "date": "2026-07-16",
+      "name": "Georges S. Fournier",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-16",
+      "name": "Jacinthe Kirouac-Letendre",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-16",
+      "name": "Jacques S. Darche, C.Arb",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-16",
+      "name": "Jean-Yves Simard",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-16",
+      "name": "John Aievras",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-07-15",
       "name": "Oren Elbaz",
@@ -4935,6 +6133,71 @@
       "reason": null
     },
     {
+      "broker": "Kevin",
+      "date": "2026-07-15",
+      "name": "Christina Muccari",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-15",
+      "name": "Cindy Ho",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-15",
+      "name": "Fr\u00e9d\u00e9ric Vachon",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-15",
+      "name": "Gabriel Nadeau-Roberge",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-15",
+      "name": "Gabriel Tremblay",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-07-14",
       "name": "Emily Donahue",
@@ -4996,6 +6259,71 @@
       "owns_commercial": null,
       "source": "LinkedIn",
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-14",
+      "name": "Ang\u00e8le Di Giovanni",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-14",
+      "name": "Arielle Ramsey",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-14",
+      "name": "Bruce McNiven",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-14",
+      "name": "Audr\u00e9e Roy",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Notary",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-14",
+      "name": "Camille Chapdelaine",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -5139,6 +6467,71 @@
       "owns_commercial": null,
       "source": "COI Referral",
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-13",
+      "name": "Me Anne-Edma Louis",
+      "company": "Amlea Avocats",
+      "prospect_type": "Notary",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-13",
+      "name": "Me Olivia Sikali",
+      "company": "Amlea Avocats",
+      "prospect_type": "Notary",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-13",
+      "name": "Me Gabra\u00ebl Akinyode",
+      "company": "Amlea Avocats",
+      "prospect_type": "Notary",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-13",
+      "name": "Marc-Antoine Girouard",
+      "company": "Amlea Avocats",
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-13",
+      "name": "Adrien Mitchell",
+      "company": "Prelia - Lawfirm",
+      "prospect_type": "Lawyer",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -5832,6 +7225,45 @@
       "reason": null
     },
     {
+      "broker": "Kevin",
+      "date": "2026-07-08",
+      "name": "Noah Neudorf",
+      "company": null,
+      "prospect_type": "Notary",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-08",
+      "name": "Sami Sacy",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-08",
+      "name": "Alec Garabedian",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-07-07",
       "name": "Jasmin Demers",
@@ -5905,6 +7337,71 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-07",
+      "name": "Paul Kertechian",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-07",
+      "name": "Michael Martin",
+      "company": null,
+      "prospect_type": "Real Estate Broker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-07",
+      "name": "Mikael Kirkdjian",
+      "company": null,
+      "prospect_type": "Real Estate Broker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-07",
+      "name": "Shkelzen Tabaku",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-07",
+      "name": "Ervin Fetah",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -6036,6 +7533,58 @@
       "owns_commercial": null,
       "source": "Instagram Ad",
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-06",
+      "name": "Alfredo Consentino",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-06",
+      "name": "Karim Abou-Merhi",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-06",
+      "name": "Anthony De Carvalho",
+      "company": null,
+      "prospect_type": "Real Estate Broker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-07-06",
+      "name": "Alain Abraham Wete",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -6331,6 +7880,396 @@
       "name": "Ariane Beaudry ",
       "company": "GRH",
       "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Joe ierfino",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Surjit Singh",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Chhour Hong",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Mohshin Sarker",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Rustum Asaduzzaman",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-29",
+      "name": "Herby Drescher",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Marie-Elaine Savard",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Nicolas El Khoury",
+      "company": "National Bank",
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Simon Benzikri",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Philippe Ferris-Aubry",
+      "company": "Brodeur Tremblay CPA Inc",
+      "prospect_type": "Accountant",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Alexandre St-Jean",
+      "company": "ASJ Gestion Immobili\u00e8re Inc.",
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Fabrice Simo Kamdem",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Patrick Hubert",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Antonio Dogui",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Anne-Sophie Malboeuf",
+      "company": "BDC",
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Katla Davidson",
+      "company": "T2 Renovations Inc.",
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Patrick Namroud",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Nassim Mehri",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Alexandre Auger",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Felix Lecompte",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Claude Dumont",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Eduardo",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Carlos",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Jacques Dumont",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Mark Anthony",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "William Amoi",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Annie Ibrahamian",
+      "company": null,
+      "prospect_type": "Real Estate Broker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Joel Hunt",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Rodrigo Diaz",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": null,
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Kevin",
+      "date": "2026-06-22",
+      "name": "Babak Anbarzadeh",
+      "company": null,
+      "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
       "source": null,
