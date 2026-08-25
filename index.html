@@ -304,26 +304,39 @@ async function load(isRefresh){
     "Timing Not Ready","Unreachable","Other"];
 
   const datedLeads = data.leads.filter(l => l.date);
-  const maxDate = datedLeads.length
-    ? new Date(datedLeads.reduce((a,b)=> a > b.date ? a : b.date, datedLeads[0].date))
+
+  // Parse "YYYY-MM-DD" as a LOCAL date. new Date("2026-08-24") parses as UTC
+  // midnight, which in a negative-offset timezone (e.g. Montreal, UTC-4) lands
+  // on the previous day locally and silently pushes leads into the wrong week.
+  function parseYMD(s){
+    const [y,m,d] = s.split('-').map(Number);
+    return new Date(y, m-1, d);
+  }
+  function toYMD(dt){
+    const p = n => String(n).padStart(2,'0');
+    return `${dt.getFullYear()}-${p(dt.getMonth()+1)}-${p(dt.getDate())}`;
+  }
+
+  const maxDateStr = datedLeads.length
+    ? datedLeads.reduce((a,l)=> l.date > a ? l.date : a, datedLeads[0].date)
     : null;
+  const maxDate = maxDateStr ? parseYMD(maxDateStr) : null;
 
   function mondayOf(d){
     const day = (d.getDay()+6)%7; // Mon=0..Sun=6
-    const m = new Date(d); m.setDate(d.getDate()-day); m.setHours(0,0,0,0);
-    return m;
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate()-day);
   }
   function inRange(dateStr, range){
-    if (!maxDate || !dateStr || range === 'all') return range === 'all';
-    const d = new Date(dateStr);
+    if (range === 'all') return true;
+    if (!maxDate || !dateStr) return false;
     if (range === 'week'){
       const mon = mondayOf(maxDate);
-      const sat = new Date(mon); sat.setDate(mon.getDate()+5); sat.setHours(23,59,59,999);
-      return d >= mon && d <= sat;
+      const sat = new Date(mon.getFullYear(), mon.getMonth(), mon.getDate()+5);
+      return dateStr >= toYMD(mon) && dateStr <= toYMD(sat);
     }
     if (range === 'month'){
-      const start = new Date(maxDate); start.setDate(maxDate.getDate()-29); start.setHours(0,0,0,0);
-      return d >= start && d <= maxDate;
+      const start = new Date(maxDate.getFullYear(), maxDate.getMonth(), maxDate.getDate()-29);
+      return dateStr >= toYMD(start) && dateStr <= maxDateStr;
     }
     return true;
   }
