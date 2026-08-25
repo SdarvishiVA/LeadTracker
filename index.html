@@ -269,12 +269,71 @@ function rateClass(r){
 }
 function pct(x){ return (x*100).toFixed(1) + '%'; }
 
+// ---------------------------------------------------------------------------
+// Refresh endpoint: the Cloudflare Worker that triggers the GitHub Action.
+// Leave as null to make the button a plain re-fetch (no Box pull).
+// Once the Worker is deployed, paste its URL here, e.g.
+//   const REFRESH_ENDPOINT = "https://va-refresh.sdarvishi.workers.dev";
+// ---------------------------------------------------------------------------
+const REFRESH_ENDPOINT = null;
+
 let weekChartInstance = null;
 let typeChartInstance = null;
 
+function setBtn(text, disabled){
+  const b = document.getElementById('refresh-btn');
+  b.textContent = text;
+  b.disabled = !!disabled;
+}
+
+// Kick off the GitHub Action, then poll until the JSON's generated_at changes.
+async function triggerRebuild(){
+  const before = document.getElementById('foot-generated').dataset.generatedAt || '';
+
+  setBtn('↻ Starting…', true);
+  try{
+    const res = await fetch(REFRESH_ENDPOINT, { method:'POST' });
+    const body = await res.json().catch(()=>({}));
+    if (!res.ok || !body.ok){
+      setBtn('↻ Refresh failed', false);
+      console.error('Refresh trigger failed:', body);
+      setTimeout(()=>setBtn('↻ Refresh', false), 4000);
+      return;
+    }
+  }catch(err){
+    setBtn('↻ Refresh failed', false);
+    console.error(err);
+    setTimeout(()=>setBtn('↻ Refresh', false), 4000);
+    return;
+  }
+
+  // The Action takes ~30-60s: pull from Box, rebuild JSON, commit, publish.
+  const started = Date.now();
+  const TIMEOUT_MS = 180000;   // 3 minutes
+  const POLL_MS = 6000;
+
+  while (Date.now() - started < TIMEOUT_MS){
+    const secs = Math.round((Date.now()-started)/1000);
+    setBtn(`↻ Rebuilding… ${secs}s`, true);
+    await new Promise(r => setTimeout(r, POLL_MS));
+    try{
+      const res = await fetch('dashboard_data.json?t=' + Date.now(), {cache:'no-store'});
+      const fresh = await res.json();
+      if (fresh.generated_at && fresh.generated_at !== before){
+        await load(true);
+        setBtn('↻ Updated', false);
+        setTimeout(()=>setBtn('↻ Refresh', false), 3000);
+        return;
+      }
+    }catch(e){ /* keep polling */ }
+  }
+
+  setBtn('↻ Timed out', false);
+  setTimeout(()=>setBtn('↻ Refresh', false), 4000);
+}
+
 async function load(isRefresh){
-  const btn = document.getElementById('refresh-btn');
-  if (isRefresh){ btn.disabled = true; btn.textContent = '↻ Refreshing…'; }
+  if (isRefresh) setBtn('↻ Loading…', true);
 
   let data;
   try{
@@ -284,7 +343,7 @@ async function load(isRefresh){
     document.querySelector('.wrap').innerHTML =
       '<div class="card"><div class="card-head"><span class="card-title">Statement unavailable</span></div>' +
       '<div class="card-body"><p class="empty-note">dashboard_data.json could not be loaded. Check that the pipeline ran and the file sits alongside this page.</p></div></div>';
-    if (isRefresh){ btn.disabled = false; btn.textContent = '↻ Refresh'; }
+    setBtn('↻ Refresh', false);
     return;
   }
 
@@ -294,6 +353,7 @@ async function load(isRefresh){
   if (data.demo_mode){
     document.getElementById('demo-flag-slot').innerHTML = '<span class="demo-flag">Demo data</span>';
   }
+  document.getElementById('foot-generated').dataset.generatedAt = data.generated_at || '';
   document.getElementById('foot-generated').textContent =
     'Generated ' + genDate.toLocaleString('en-US', {dateStyle:'medium', timeStyle:'short'}) +
     (data.errors.length ? '  ·  ' + data.errors.length + ' source error(s)' : '');
@@ -601,11 +661,13 @@ async function load(isRefresh){
 
   renderTable();
 
-  if (isRefresh){ btn.disabled = false; btn.textContent = '↻ Refresh'; }
-  else { btn.disabled = false; }
+  setBtn('↻ Refresh', false);
 }
 
-document.getElementById('refresh-btn').addEventListener('click', () => load(true));
+document.getElementById('refresh-btn').addEventListener('click', () => {
+  if (REFRESH_ENDPOINT) triggerRebuild();
+  else load(true);
+});
 load(false);
 </script>
 </body>
