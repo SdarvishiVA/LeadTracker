@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-08-25T14:38:46.721191+00:00",
+  "generated_at": "2026-08-25T19:41:51.793071+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
     "Raph"
   ],
-  "errors": [],
+  "errors": [
+    "'Kevin': Box download failed \u2014 HTTPError: 404 Client Error: Not Found for url: https://api.box.com/2.0/files/2426484861293/content"
+  ],
   "totals": {
-    "leads": 308,
+    "leads": 309,
     "responded": 237,
-    "response_rate": 0.7695,
+    "response_rate": 0.767,
     "qualified": 0,
     "qualify_rate": 0.0
   },
@@ -24,9 +26,9 @@
     },
     {
       "broker": "Raph",
-      "leads": 100,
+      "leads": 101,
       "responded": 83,
-      "response_rate": 0.83,
+      "response_rate": 0.8218,
       "qualified": 0,
       "qualify_rate": 0.0
     }
@@ -34,9 +36,9 @@
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 53,
-      "responded": 28,
-      "response_rate": 0.5283
+      "leads": 75,
+      "responded": 46,
+      "response_rate": 0.6133
     },
     {
       "source": "COI Referral",
@@ -93,2065 +95,2368 @@
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
       "total": 23,
       "responded": 20,
       "Suzana": 23,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
       "total": 69,
       "responded": 56,
       "Suzana": 31,
-      "Raph": 38
+      "Raph": 38,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
       "total": 34,
       "responded": 26,
       "Suzana": 33,
-      "Raph": 1
+      "Raph": 1,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
       "total": 18,
       "responded": 18,
       "Suzana": 12,
-      "Raph": 6
+      "Raph": 6,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
       "total": 28,
       "responded": 23,
       "Suzana": 17,
-      "Raph": 11
+      "Raph": 11,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 44,
       "responded": 41,
       "Suzana": 27,
-      "Raph": 17
+      "Raph": 17,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 10 - Aug 15",
       "total": 54,
       "responded": 45,
       "Suzana": 31,
-      "Raph": 23
+      "Raph": 23,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 19,
       "responded": 8,
       "Suzana": 19,
-      "Raph": 0
+      "Raph": 0,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 6,
+      "total": 7,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 4
+      "Raph": 5,
+      "Kevin": 0
+    },
+    {
+      "week_of": "Aug 24 - Aug 29",
+      "total": 7,
+      "responded": 0,
+      "Suzana": 2,
+      "Raph": 5,
+      "Kevin": 0
     }
   ],
   "by_disqualification_reason": [
@@ -2193,7 +2498,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": "No",
-      "source": null,
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
@@ -2264,6 +2569,19 @@
       "reason": null
     },
     {
+      "broker": "Raph",
+      "date": "2026-08-24",
+      "name": "Liam Raz",
+      "company": null,
+      "prospect_type": null,
+      "type": "Acquisition",
+      "owns_commercial": "Yes",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-20",
       "name": "Flobert Kamto",
@@ -2271,7 +2589,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -2323,7 +2641,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
@@ -2479,7 +2797,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -3753,7 +4071,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -4026,7 +4344,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -4208,7 +4526,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -4325,7 +4643,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5352,7 +5670,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5365,7 +5683,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5378,7 +5696,7 @@
       "prospect_type": "Other",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5391,7 +5709,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5417,7 +5735,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5430,7 +5748,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "No",
       "qualified": null,
       "reason": null
@@ -5443,7 +5761,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5456,7 +5774,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "No",
       "qualified": null,
       "reason": null
@@ -5469,7 +5787,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5495,7 +5813,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5586,7 +5904,7 @@
       "prospect_type": "Developer",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5690,7 +6008,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5703,7 +6021,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -5716,7 +6034,7 @@
       "prospect_type": "Investor",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
