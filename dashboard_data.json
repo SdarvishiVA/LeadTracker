@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T13:37:30.467083+00:00",
+  "generated_at": "2026-08-25T14:38:46.721191+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -7,18 +7,18 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 307,
+    "leads": 308,
     "responded": 237,
-    "response_rate": 0.772,
+    "response_rate": 0.7695,
     "qualified": 0,
     "qualify_rate": 0.0
   },
   "by_broker": [
     {
       "broker": "Suzana",
-      "leads": 207,
+      "leads": 208,
       "responded": 154,
-      "response_rate": 0.744,
+      "response_rate": 0.7404,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -34,15 +34,15 @@
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 49,
-      "responded": 27,
-      "response_rate": 0.551
+      "leads": 53,
+      "responded": 28,
+      "response_rate": 0.5283
     },
     {
       "source": "COI Referral",
-      "leads": 24,
-      "responded": 22,
-      "response_rate": 0.9167
+      "leads": 27,
+      "responded": 25,
+      "response_rate": 0.9259
     },
     {
       "source": "Referral",
@@ -2113,37 +2113,44 @@
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 5,
+      "total": 6,
       "responded": 0,
-      "Suzana": 1,
+      "Suzana": 2,
       "Raph": 4
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 5,
+      "total": 6,
       "responded": 0,
-      "Suzana": 1,
+      "Suzana": 2,
       "Raph": 4
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 5,
+      "total": 6,
       "responded": 0,
-      "Suzana": 1,
+      "Suzana": 2,
       "Raph": 4
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 5,
+      "total": 6,
       "responded": 0,
-      "Suzana": 1,
+      "Suzana": 2,
       "Raph": 4
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 5,
+      "total": 6,
       "responded": 0,
-      "Suzana": 1,
+      "Suzana": 2,
+      "Raph": 4
+    },
+    {
+      "week_of": "Aug 24 - Aug 29",
+      "total": 6,
+      "responded": 0,
+      "Suzana": 2,
       "Raph": 4
     }
   ],
@@ -2180,13 +2187,26 @@
   "leads": [
     {
       "broker": "Suzana",
+      "date": "2026-08-25",
+      "name": "Herby Drescher",
+      "company": "Instagram Ad",
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
       "date": "2026-08-24",
       "name": "Thushyan",
       "company": "Instagram Ad",
       "prospect_type": null,
       "type": "Acquisition",
       "owns_commercial": "No",
-      "source": null,
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
@@ -2264,7 +2284,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
@@ -2277,7 +2297,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
@@ -2420,7 +2440,7 @@
       "prospect_type": "Directeur investissements et financements",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "COI Referral",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -2433,7 +2453,7 @@
       "prospect_type": "Real Estate Broker",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "COI Referral",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -2472,7 +2492,7 @@
       "prospect_type": "Banker",
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "COI Referral",
       "responded": "Yes",
       "qualified": null,
       "reason": null
@@ -2485,7 +2505,7 @@
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
-      "source": null,
+      "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": null,
       "reason": null
