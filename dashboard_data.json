@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:24:44.445666+00:00",
+  "generated_at": "2026-08-26T13:31:37.160265+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -8,9 +8,9 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 401,
+    "leads": 402,
     "responded": 272,
-    "response_rate": 0.6783,
+    "response_rate": 0.6766,
     "qualified": 0,
     "qualify_rate": 0.0
   },
@@ -25,9 +25,9 @@
     },
     {
       "broker": "Raph",
-      "leads": 101,
+      "leads": 102,
       "responded": 83,
-      "response_rate": 0.8218,
+      "response_rate": 0.8137,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -43,9 +43,9 @@
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 75,
+      "leads": 77,
       "responded": 46,
-      "response_rate": 0.6133
+      "response_rate": 0.5974
     },
     {
       "source": "COI Referral",
@@ -3147,58 +3147,66 @@
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
       "Kevin": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 7,
+      "total": 8,
       "responded": 0,
       "Suzana": 2,
-      "Raph": 5,
+      "Raph": 6,
+      "Kevin": 0
+    },
+    {
+      "week_of": "Aug 24 - Aug 29",
+      "total": 8,
+      "responded": 0,
+      "Suzana": 2,
+      "Raph": 6,
       "Kevin": 0
     }
   ],
@@ -3319,7 +3327,20 @@
       "prospect_type": null,
       "type": "Acquisition",
       "owns_commercial": "Yes",
-      "source": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Raph",
+      "date": "2026-08-24",
+      "name": "Roja Baddepudi",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "No",
+      "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
       "reason": null
