@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-08-26T13:34:09.616148+00:00",
+  "generated_at": "2026-08-26T17:53:08.382875+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
     "Raph",
-    "Kevin"
+    "Kevin",
+    "Marc"
   ],
   "errors": [],
   "totals": {
-    "leads": 402,
-    "responded": 272,
-    "response_rate": 0.6766,
-    "qualified": 0,
-    "qualify_rate": 0.0
+    "leads": 500,
+    "responded": 279,
+    "response_rate": 0.558,
+    "qualified": 1,
+    "qualify_rate": 0.002
   },
   "by_broker": [
     {
@@ -26,10 +27,10 @@
     {
       "broker": "Raph",
       "leads": 102,
-      "responded": 83,
-      "response_rate": 0.8137,
-      "qualified": 0,
-      "qualify_rate": 0.0
+      "responded": 87,
+      "response_rate": 0.8529,
+      "qualified": 1,
+      "qualify_rate": 0.0098
     },
     {
       "broker": "Kevin",
@@ -38,14 +39,22 @@
       "response_rate": 0.3804,
       "qualified": 0,
       "qualify_rate": 0.0
+    },
+    {
+      "broker": "Marc",
+      "leads": 98,
+      "responded": 3,
+      "response_rate": 0.0306,
+      "qualified": 0,
+      "qualify_rate": 0.0
     }
   ],
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 77,
-      "responded": 46,
-      "response_rate": 0.5974
+      "leads": 175,
+      "responded": 53,
+      "response_rate": 0.3029
     },
     {
       "source": "COI Referral",
@@ -103,7 +112,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -111,7 +121,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -119,7 +130,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -127,7 +139,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -135,7 +148,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -143,7 +157,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -151,7 +166,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -159,7 +175,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -167,7 +184,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -175,7 +193,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -183,7 +202,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -191,7 +211,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -199,7 +220,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -207,7 +229,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -215,7 +238,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -223,7 +247,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -231,7 +256,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -239,7 +265,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -247,7 +274,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -255,7 +283,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -263,7 +292,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -271,7 +301,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -279,7 +310,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 22 - Jun 27",
@@ -287,7 +319,8 @@
       "responded": 23,
       "Suzana": 0,
       "Raph": 0,
-      "Kevin": 24
+      "Kevin": 24,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -295,7 +328,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -303,7 +337,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -311,7 +346,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -319,7 +355,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -327,7 +364,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -335,7 +373,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -343,7 +382,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -351,7 +391,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -359,7 +400,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -367,7 +409,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -375,7 +418,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -383,7 +427,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -391,7 +436,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -399,7 +445,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -407,7 +454,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -415,7 +463,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -423,7 +472,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -431,7 +481,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -439,7 +490,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -447,7 +499,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -455,7 +508,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -463,7 +517,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -471,7 +526,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -479,7 +535,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -487,7 +544,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -495,7 +553,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -503,7 +562,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -511,7 +571,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jun 29 - Jul 4",
@@ -519,7 +580,8 @@
       "responded": 24,
       "Suzana": 23,
       "Raph": 0,
-      "Kevin": 6
+      "Kevin": 6,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -527,7 +589,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -535,7 +598,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -543,7 +607,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -551,7 +616,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -559,7 +625,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -567,7 +634,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -575,7 +643,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -583,7 +652,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -591,7 +661,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -599,7 +670,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -607,7 +679,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -615,7 +688,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -623,7 +697,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -631,7 +706,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -639,7 +715,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -647,7 +724,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -655,7 +733,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -663,7 +742,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -671,7 +751,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -679,7 +760,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -687,7 +769,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -695,7 +778,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -703,7 +787,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -711,7 +796,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -719,7 +805,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -727,7 +814,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -735,7 +823,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -743,7 +832,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -751,7 +841,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -759,7 +850,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -767,7 +859,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -775,7 +868,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -783,7 +877,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -791,7 +886,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -799,7 +895,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -807,7 +904,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -815,7 +913,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -823,7 +922,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -831,7 +931,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -839,7 +940,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -847,7 +949,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -855,7 +958,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -863,7 +967,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -871,7 +976,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -879,7 +985,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -887,7 +994,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -895,7 +1003,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -903,7 +1012,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -911,7 +1021,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -919,7 +1030,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -927,7 +1039,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -935,7 +1048,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -943,7 +1057,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -951,7 +1066,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -959,7 +1075,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -967,7 +1084,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -975,7 +1093,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -983,7 +1102,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -991,7 +1111,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -999,7 +1120,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1007,7 +1129,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1015,7 +1138,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1023,7 +1147,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1031,7 +1156,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1039,7 +1165,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1047,7 +1174,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1055,7 +1183,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1063,7 +1192,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1071,7 +1201,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1079,7 +1210,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1087,7 +1219,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1095,7 +1228,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1103,7 +1237,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1111,7 +1246,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1119,7 +1255,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1127,7 +1264,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1135,7 +1273,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1143,7 +1282,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1151,7 +1291,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1159,7 +1300,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 6 - Jul 11",
@@ -1167,7 +1309,8 @@
       "responded": 64,
       "Suzana": 31,
       "Raph": 38,
-      "Kevin": 12
+      "Kevin": 12,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1175,7 +1318,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1183,7 +1327,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1191,7 +1336,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1199,7 +1345,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1207,7 +1354,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1215,7 +1363,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1223,7 +1372,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1231,7 +1381,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1239,7 +1390,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1247,7 +1399,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1255,7 +1408,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1263,7 +1417,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1271,7 +1426,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1279,7 +1435,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1287,7 +1444,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1295,7 +1453,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1303,7 +1462,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1311,7 +1471,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1319,7 +1480,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1327,7 +1489,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1335,7 +1498,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1343,7 +1507,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1351,7 +1516,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1359,7 +1525,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1367,7 +1534,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1375,7 +1543,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1383,7 +1552,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1391,7 +1561,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1399,7 +1570,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1407,7 +1579,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1415,7 +1588,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1423,7 +1597,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1431,7 +1606,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1439,7 +1615,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1447,7 +1624,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1455,7 +1633,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1463,7 +1642,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1471,7 +1651,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1479,7 +1660,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1487,7 +1669,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1495,7 +1678,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1503,7 +1687,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1511,7 +1696,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1519,7 +1705,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1527,7 +1714,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1535,7 +1723,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1543,7 +1732,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1551,7 +1741,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1559,7 +1750,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1567,7 +1759,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1575,7 +1768,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1583,7 +1777,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1591,7 +1786,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1599,7 +1795,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1607,7 +1804,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1615,7 +1813,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1623,7 +1822,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1631,7 +1831,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 13 - Jul 18",
@@ -1639,7 +1840,8 @@
       "responded": 26,
       "Suzana": 33,
       "Raph": 1,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1647,7 +1849,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1655,7 +1858,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1663,7 +1867,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1671,7 +1876,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1679,7 +1885,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1687,7 +1894,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1695,7 +1903,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1703,7 +1912,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1711,7 +1921,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1719,7 +1930,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1727,7 +1939,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1735,7 +1948,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1743,7 +1957,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1751,7 +1966,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1759,7 +1975,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1767,7 +1984,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1775,7 +1993,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1783,7 +2002,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1791,7 +2011,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1799,7 +2020,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1807,7 +2029,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1815,7 +2038,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1823,7 +2047,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1831,7 +2056,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1839,7 +2065,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1847,7 +2074,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1855,7 +2083,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1863,7 +2092,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1871,7 +2101,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1879,7 +2110,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1887,7 +2119,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1895,7 +2128,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1903,7 +2137,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1911,7 +2146,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1919,7 +2155,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1927,7 +2164,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1935,7 +2173,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1943,7 +2182,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1951,7 +2191,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1959,7 +2200,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1967,7 +2209,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1975,7 +2218,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 20 - Jul 25",
@@ -1983,7 +2227,8 @@
       "responded": 18,
       "Suzana": 12,
       "Raph": 6,
-      "Kevin": 25
+      "Kevin": 25,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -1991,7 +2236,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -1999,7 +2245,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2007,7 +2254,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2015,7 +2263,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2023,7 +2272,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2031,7 +2281,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2039,7 +2290,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2047,7 +2299,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2055,7 +2308,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2063,7 +2317,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2071,7 +2326,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2079,7 +2335,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2087,7 +2344,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2095,7 +2353,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2103,7 +2362,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2111,7 +2371,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2119,7 +2380,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2127,7 +2389,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2135,7 +2398,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2143,7 +2407,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2151,7 +2416,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2159,7 +2425,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2167,7 +2434,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2175,7 +2443,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2183,7 +2452,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2191,7 +2461,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2199,7 +2470,8 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Jul 27 - Aug 1",
@@ -2207,1007 +2479,2015 @@
       "responded": 23,
       "Suzana": 17,
       "Raph": 11,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 3 - Aug 8",
-      "total": 44,
+      "total": 88,
       "responded": 41,
       "Suzana": 27,
       "Raph": 17,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
+    },
+    {
+      "week_of": "Aug 3 - Aug 8",
+      "total": 88,
+      "responded": 41,
+      "Suzana": 27,
+      "Raph": 17,
+      "Kevin": 0,
+      "Marc": 44
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 10 - Aug 15",
-      "total": 54,
-      "responded": 45,
+      "total": 104,
+      "responded": 48,
       "Suzana": 31,
       "Raph": 23,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
+    },
+    {
+      "week_of": "Aug 10 - Aug 15",
+      "total": 104,
+      "responded": 48,
+      "Suzana": 31,
+      "Raph": 23,
+      "Kevin": 0,
+      "Marc": 50
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 19,
+      "total": 23,
       "responded": 8,
       "Suzana": 19,
       "Raph": 0,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 4
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 23,
+      "responded": 8,
+      "Suzana": 19,
+      "Raph": 0,
+      "Kevin": 0,
+      "Marc": 4
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 23,
+      "responded": 8,
+      "Suzana": 19,
+      "Raph": 0,
+      "Kevin": 0,
+      "Marc": 4
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 23,
+      "responded": 8,
+      "Suzana": 19,
+      "Raph": 0,
+      "Kevin": 0,
+      "Marc": 4
+    },
+    {
+      "week_of": "Aug 17 - Aug 22",
+      "total": 23,
+      "responded": 8,
+      "Suzana": 19,
+      "Raph": 0,
+      "Kevin": 0,
+      "Marc": 4
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     },
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 8,
-      "responded": 0,
+      "responded": 4,
       "Suzana": 2,
       "Raph": 6,
-      "Kevin": 0
+      "Kevin": 0,
+      "Marc": 0
     }
   ],
   "by_disqualification_reason": [
@@ -3221,15 +4501,15 @@
     },
     {
       "reason": "Residential Only (Not Multi-Res/Commercial)",
-      "count": 0
+      "count": 1
     },
     {
       "reason": "Wrong Deal Size or Type",
-      "count": 0
+      "count": 1
     },
     {
       "reason": "Timing Not Ready",
-      "count": 0
+      "count": 1
     },
     {
       "reason": "Unreachable",
@@ -3276,9 +4556,9 @@
       "type": "Construction",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
-      "reason": null
+      "responded": "Yes",
+      "qualified": "No",
+      "reason": "Residential Only (Not Multi-Res/Commercial)"
     },
     {
       "broker": "Raph",
@@ -3289,9 +4569,9 @@
       "type": "Construction",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
-      "reason": null
+      "responded": "Yes",
+      "qualified": "No",
+      "reason": "Timing Not Ready"
     },
     {
       "broker": "Raph",
@@ -3302,8 +4582,8 @@
       "type": "Acquisition",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "Yes",
       "reason": null
     },
     {
@@ -3315,7 +4595,7 @@
       "type": "Acquisition",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3328,9 +4608,9 @@
       "type": "Acquisition",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
-      "reason": null
+      "responded": "Yes",
+      "qualified": "No",
+      "reason": "Wrong Deal Size or Type"
     },
     {
       "broker": "Raph",
@@ -3341,7 +4621,7 @@
       "type": "Construction",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3593,6 +4873,305 @@
       "reason": null
     },
     {
+      "broker": "Marc",
+      "date": "2026-08-17",
+      "name": "Alba Coiffeure",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-17",
+      "name": "Nathalie Reine Akokane",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-17",
+      "name": "Xavier Mathieu",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-17",
+      "name": "Emmanuel",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "FAYETTE WiDMax",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Tiadiaga Ciss\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Claude Anne",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Judy Espinal",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Nora",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Claudy Michel",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Denis Hovington",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Richard Thomas",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Yao Kouame",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Fatima Konombo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Mamadou Ndiaye",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-16",
+      "name": "Oumarou Traore",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Henri Bolekala",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Yoana Toto",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Charles Mba",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Evariste Tiemtor\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Chery Rose Sylnee",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Larissa Munyana Muheto",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-15",
+      "name": "Marie Carmel Trasybule",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-14",
       "name": "Saqib",
@@ -3723,6 +5302,71 @@
       "reason": null
     },
     {
+      "broker": "Marc",
+      "date": "2026-08-14",
+      "name": "Bettyna",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-14",
+      "name": "Romual Theodore",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-14",
+      "name": "Gasline Ternier",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-14",
+      "name": "Murline Aubert",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-14",
+      "name": "Lya",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-13",
       "name": "Akhan",
@@ -3797,6 +5441,97 @@
       "owns_commercial": null,
       "source": "Instagram Ad",
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Pongnon investments Inc.",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Flo GATORE",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Yves Mbattang",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Prisca Ndjangueli",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Darline Beaugris.",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Germaine Dan",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-13",
+      "name": "Libnie Demosthene",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
       "qualified": null,
       "reason": null
     },
@@ -4035,6 +5770,97 @@
       "reason": null
     },
     {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Christelle Muwoko Ambo",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "marleine",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Pashur Casimir",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Barbara Haspilaire",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Kendallneg",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Monica",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-12",
+      "name": "Derlly Lapeine",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-11",
       "name": "N Thomas",
@@ -4135,6 +5961,32 @@
       "owns_commercial": null,
       "source": null,
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-11",
+      "name": "Marie Noel Wabo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-11",
+      "name": "Siad Abubakar Maydhane",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
       "qualified": null,
       "reason": null
     },
@@ -4295,6 +6147,331 @@
       "reason": null
     },
     {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Marie laure",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Marie-Antoine Sanon",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "DaphnEe Belace",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Mei chao",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Kadiatou Souleymane Diallo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Gamwo Nouayou",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Andriana Kouakou",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Germanie Dumas",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Dachie Charlestin",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-10",
+      "name": "Jessica Hyppolite",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Nathanaelle Raymond",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Ra\u00efssa Raissa Kr",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Miguel Angel Arevalo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Neabo raymond",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Francuse Gay",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Andre M\u00e9n\u00e8s",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Jeanne line  Jiazet tiomo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "lydie Kimpolo",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Inna Pop",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "AKONDE CHARLES",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Karine Degr\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Lullie Garine Guerrier",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Najat Cherkaoui",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Grando Dara",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-09",
+      "name": "Francoise Maxilin",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-08",
       "name": "Florence Chausse",
@@ -4317,6 +6494,149 @@
       "owns_commercial": null,
       "source": "Instagram Ad",
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "Ricaldo Tiburon Alcim\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "Jean claude Bashibirira",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "Ri Biada",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "DIOMANDE VAKANVALY",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "Soumaila Sangar\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-08",
+      "name": "Camy Kamalenga",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-07",
+      "name": "IDA BULENGA",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-07",
+      "name": "Simeon PHANORD",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-07",
+      "name": "Rodrigue Rodry",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-07",
+      "name": "mouhoub fahima",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-07",
+      "name": "Matayabo jackson",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
       "qualified": null,
       "reason": null
     },
@@ -4395,6 +6715,214 @@
       "owns_commercial": null,
       "source": null,
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Somano Duy",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Pravine",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Vilane Augustin",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Frank Malthus",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Pauline Kouame",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Georgette Kouadio",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Pierre Francois",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "David",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Vincent Guiebr\u00e9",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Christian",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Ndode Hyacinthe Ngadande",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Elyse Habumukiza",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "verland",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Denis Beaudry",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Ngoran Jean Marc St\u00e9phane",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-06",
+      "name": "Bruno Caruso",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
       "qualified": null,
       "reason": null
     },
@@ -4798,6 +7326,32 @@
       "owns_commercial": null,
       "source": null,
       "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-05",
+      "name": "Vincent Girard",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Marc",
+      "date": "2026-08-05",
+      "name": "Vincent Paquin",
+      "company": null,
+      "prospect_type": null,
+      "type": null,
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": null,
       "qualified": null,
       "reason": null
     },
