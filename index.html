@@ -216,6 +216,7 @@
   <div class="wrap">
 
     <div class="range-toggle" id="range-toggle"></div>
+    <div class="range-toggle" id="broker-toggle" style="margin-top:8px;"></div>
     <p class="summary-line" id="summary-line"></p>
 
     <div class="kpis" id="kpis"></div>
@@ -402,6 +403,8 @@ async function load(isRefresh){
   }
 
   let currentRange = 'week';
+  let currentBroker = '';   // '' = All Brokers
+  const ALL_BROKERS = [...new Set(data.leads.map(l=>l.broker))].sort();
 
   function rangeLabel(range){
     if (range==='week') return 'Last work week';
@@ -417,12 +420,33 @@ async function load(isRefresh){
       <span class="range-note">${rangeLabel(currentRange)}${maxDate?' · through '+maxDate.toISOString().slice(0,10):''}</span>
     `;
     document.querySelectorAll('.range-btn').forEach(btn=>{
-      btn.addEventListener('click', ()=>{ currentRange = btn.dataset.r; renderRangeToggle(); renderSummary(); });
+      btn.addEventListener('click', ()=>{
+        currentRange = btn.dataset.r;
+        renderRangeToggle(); renderSummary(); renderWeekChart();
+      });
+    });
+  }
+
+  function renderBrokerToggle(){
+    document.getElementById('broker-toggle').innerHTML = `
+      <button class="range-btn ${currentBroker===''?'active':''}" data-b="">All Brokers</button>
+      ${ALL_BROKERS.map(b => `<button class="range-btn ${currentBroker===b?'active':''}" data-b="${b}">${b}</button>`).join('')}
+    `;
+    document.querySelectorAll('#broker-toggle .range-btn').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        currentBroker = btn.dataset.b;
+        renderBrokerToggle(); renderSummary(); renderWeekChart();
+        // keep the leads-table filter in sync with the global broker filter
+        const fBroker = document.getElementById('f-broker');
+        if (fBroker){ fBroker.value = currentBroker; state.broker = currentBroker; state.page = 1; renderTable(); }
+      });
     });
   }
 
   function renderSummary(){
-    const scoped = data.leads.filter(l => inRange(l.date, currentRange));
+    const scoped = data.leads.filter(l =>
+      inRange(l.date, currentRange) && (!currentBroker || l.broker === currentBroker)
+    );
 
     const total = scoped.length;
     const responded = scoped.filter(l=>l.responded==='Yes').length;
@@ -430,8 +454,9 @@ async function load(isRefresh){
     const brokerCount = new Set(scoped.map(l=>l.broker)).size;
 
     const rangePrefix = currentRange==='week' ? 'This work week' : currentRange==='month' ? 'In the last 30 days' : 'All time';
+    const brokerPrefix = currentBroker ? `${currentBroker} — ` : '';
     document.getElementById('summary-line').innerHTML =
-      `${rangePrefix}: <b>${total}</b> new lead${total===1?'':'s'}, <b>${responded}</b> responded (<b>${pct(total?responded/total:0)}</b>).`;
+      `${brokerPrefix}${rangePrefix}: <b>${total}</b> new lead${total===1?'':'s'}, <b>${responded}</b> responded (<b>${pct(total?responded/total:0)}</b>).`;
 
     const owns = scoped.filter(l=>l.owns_commercial==='Yes').length;
     const newToCommercial = scoped.filter(l=>l.owns_commercial==='No').length;
@@ -472,11 +497,13 @@ async function load(isRefresh){
         <td><span class="badge ${rateClass(n?own/n:0)}">${pct(n?own/n:0)}</span></td>
       </tr>`;
     }).join('');
-    rows += `<tr class="total">
-      <td>Total</td><td>${total}</td><td>${responded}</td>
-      <td>${pct(total?responded/total:0)}</td><td>${owns}</td>
-      <td>${pct(total?owns/total:0)}</td>
-    </tr>`;
+    if (!currentBroker){
+      rows += `<tr class="total">
+        <td>Total</td><td>${total}</td><td>${responded}</td>
+        <td>${pct(total?responded/total:0)}</td><td>${owns}</td>
+        <td>${pct(total?owns/total:0)}</td>
+      </tr>`;
+    }
     document.getElementById('broker-table').innerHTML = `
       <thead><tr>
         <th>Broker</th><th>Leads</th><th>Responded</th><th>Resp. rate</th><th>Own Property</th><th>Ownership rate</th>
@@ -537,39 +564,45 @@ async function load(isRefresh){
   }
 
   renderRangeToggle();
+  renderBrokerToggle();
   renderSummary();
 
-  // ---- Weekly chart (always full history — a one-week or 30-day trend isn't useful) ----
-  const brokers = [...new Set(data.leads.map(l=>l.broker))].sort();
-  const ctx = document.getElementById('weekChart').getContext('2d');
-  if (weekChartInstance) weekChartInstance.destroy();
-  weekChartInstance = new Chart(ctx, {
-    type:'line',
-    data:{
-      labels: data.by_week.map(w=>w.week_of),
-      datasets: brokers.map((b,i) => ({
-        label:b,
-        data:data.by_week.map(w=>w[b]||0),
-        borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
-        backgroundColor:BROKER_COLORS[i%BROKER_COLORS.length]+'1A',
-        borderWidth:2,
-        pointRadius:3,
-        pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
-        tension:0.25,
-        fill:false
-      }))
-    },
-    options:{
-      responsive:true, maintainAspectRatio:false,
-      plugins:{
-        legend:{ position:'bottom', labels:{ font:{family:"'Inter'", size:11.5}, color:'#41504A', boxWidth:9, usePointStyle:true } }
+  function renderWeekChart(){
+    const brokersToShow = currentBroker ? [currentBroker] : ALL_BROKERS;
+    const ctx = document.getElementById('weekChart').getContext('2d');
+    if (weekChartInstance) weekChartInstance.destroy();
+    weekChartInstance = new Chart(ctx, {
+      type:'line',
+      data:{
+        labels: data.by_week.map(w=>w.week_of),
+        datasets: brokersToShow.map((b) => {
+          const i = ALL_BROKERS.indexOf(b);
+          return {
+            label:b,
+            data:data.by_week.map(w=>w[b]||0),
+            borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
+            backgroundColor:BROKER_COLORS[i%BROKER_COLORS.length]+'1A',
+            borderWidth:2,
+            pointRadius:3,
+            pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
+            tension:0.25,
+            fill:false
+          };
+        })
       },
-      scales:{
-        x:{ grid:{display:false}, ticks:{font:{family:"'Inter'", size:11}, color:'#6E7C76'} },
-        y:{ beginAtZero:true, grid:{color:'#E3E7E4'}, ticks:{font:{family:"'Inter'", size:11}, color:'#6E7C76'} }
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{
+          legend:{ position:'bottom', labels:{ font:{family:"'Inter'", size:11.5}, color:'#41504A', boxWidth:9, usePointStyle:true } }
+        },
+        scales:{
+          x:{ grid:{display:false}, ticks:{font:{family:"'Inter'", size:11}, color:'#6E7C76'} },
+          y:{ beginAtZero:true, grid:{color:'#E3E7E4'}, ticks:{font:{family:"'Inter'", size:11}, color:'#6E7C76'} }
+        }
       }
-    }
-  });
+    });
+  }
+  renderWeekChart();
 
   // ---- Leads table: filters + pagination ----
   const leads = data.leads;
