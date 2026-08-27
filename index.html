@@ -453,23 +453,37 @@ async function load(isRefresh){
     const qualified = scoped.filter(l=>l.qualified==='Yes').length;
     const brokerCount = new Set(scoped.map(l=>l.broker)).size;
 
+    // Leads CONTACTED are scoped by when the broker reached out, not when the
+    // lead arrived — so a lead received in June and contacted this week counts
+    // toward this week's contact activity.
+    const contactedScoped = data.leads.filter(l =>
+      l.date_contacted &&
+      inRange(l.date_contacted, currentRange) &&
+      (!currentBroker || l.broker === currentBroker)
+    );
+    const contacted = contactedScoped.length;
+
     const rangePrefix = currentRange==='week' ? 'This work week' : currentRange==='month' ? 'In the last 30 days' : 'All time';
     const brokerPrefix = currentBroker ? `${currentBroker} — ` : '';
     document.getElementById('summary-line').innerHTML =
-      `${brokerPrefix}${rangePrefix}: <b>${total}</b> new lead${total===1?'':'s'}, <b>${responded}</b> responded (<b>${pct(total?responded/total:0)}</b>).`;
+      `${brokerPrefix}${rangePrefix}: <b>${total}</b> lead${total===1?'':'s'} received, <b>${contacted}</b> contacted, <b>${responded}</b> responded (<b>${pct(total?responded/total:0)}</b>).`;
 
     const owns = scoped.filter(l=>l.owns_commercial==='Yes').length;
-    const newToCommercial = scoped.filter(l=>l.owns_commercial==='No').length;
 
     document.getElementById('kpis').innerHTML = `
       <div class="kpi">
-        <div class="label">Total leads</div>
+        <div class="label">Leads received</div>
         <div class="value">${total}</div>
         <div class="sub">across ${brokerCount} broker${brokerCount===1?'':'s'}</div>
       </div>
       <div class="kpi">
+        <div class="label">Leads contacted</div>
+        <div class="value accent">${contacted}</div>
+        <div class="sub">by date contacted</div>
+      </div>
+      <div class="kpi">
         <div class="label">Responded</div>
-        <div class="value accent">${responded}</div>
+        <div class="value">${responded}</div>
         <div class="sub up">${pct(total?responded/total:0)} response rate</div>
       </div>
       <div class="kpi">
@@ -477,21 +491,17 @@ async function load(isRefresh){
         <div class="value">${owns}</div>
         <div class="sub">${pct(total?owns/total:0)} of leads</div>
       </div>
-      <div class="kpi">
-        <div class="label">New to commercial</div>
-        <div class="value">${newToCommercial}</div>
-        <div class="sub">${pct(total?newToCommercial/total:0)} of leads</div>
-      </div>
     `;
 
     const brokers = [...new Set(scoped.map(l=>l.broker))].sort();
     let rows = brokers.map(b => {
       const bRows = scoped.filter(l=>l.broker===b);
       const n = bRows.length;
+      const cont = contactedScoped.filter(l=>l.broker===b).length;
       const resp = bRows.filter(l=>l.responded==='Yes').length;
       const own = bRows.filter(l=>l.owns_commercial==='Yes').length;
       return `<tr>
-        <td>${b}</td><td>${n}</td><td>${resp}</td>
+        <td>${b}</td><td>${n}</td><td>${cont}</td><td>${resp}</td>
         <td><span class="badge ${rateClass(n?resp/n:0)}">${pct(n?resp/n:0)}</span></td>
         <td>${own}</td>
         <td><span class="badge ${rateClass(n?own/n:0)}">${pct(n?own/n:0)}</span></td>
@@ -499,14 +509,14 @@ async function load(isRefresh){
     }).join('');
     if (!currentBroker){
       rows += `<tr class="total">
-        <td>Total</td><td>${total}</td><td>${responded}</td>
+        <td>Total</td><td>${total}</td><td>${contacted}</td><td>${responded}</td>
         <td>${pct(total?responded/total:0)}</td><td>${owns}</td>
         <td>${pct(total?owns/total:0)}</td>
       </tr>`;
     }
     document.getElementById('broker-table').innerHTML = `
       <thead><tr>
-        <th>Broker</th><th>Leads</th><th>Responded</th><th>Resp. rate</th><th>Own Property</th><th>Ownership rate</th>
+        <th>Broker</th><th>Received</th><th>Contacted</th><th>Responded</th><th>Resp. rate</th><th>Own Property</th><th>Ownership rate</th>
       </tr></thead><tbody>${rows}</tbody>`;
 
     const sources = [...new Set(scoped.map(l=>l.source).filter(Boolean))];
@@ -575,20 +585,36 @@ async function load(isRefresh){
       type:'line',
       data:{
         labels: data.by_week.map(w=>w.week_of),
-        datasets: brokersToShow.map((b) => {
-          const i = ALL_BROKERS.indexOf(b);
-          return {
-            label:b,
-            data:data.by_week.map(w=>w[b]||0),
-            borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
-            backgroundColor:BROKER_COLORS[i%BROKER_COLORS.length]+'1A',
-            borderWidth:2,
-            pointRadius:3,
-            pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
-            tension:0.25,
-            fill:false
-          };
-        })
+        datasets: [
+          ...brokersToShow.map((b) => {
+            const i = ALL_BROKERS.indexOf(b);
+            return {
+              label: b + ' received',
+              data:data.by_week.map(w=>w[b]||0),
+              borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
+              backgroundColor:BROKER_COLORS[i%BROKER_COLORS.length]+'1A',
+              borderWidth:2,
+              pointRadius:3,
+              pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
+              tension:0.25,
+              fill:false
+            };
+          }),
+          ...brokersToShow.map((b) => {
+            const i = ALL_BROKERS.indexOf(b);
+            return {
+              label: b + ' contacted',
+              data:data.by_week.map(w=>w['contacted_'+b]||0),
+              borderColor:BROKER_COLORS[i%BROKER_COLORS.length],
+              borderDash:[5,4],
+              borderWidth:2,
+              pointRadius:2,
+              pointBackgroundColor:BROKER_COLORS[i%BROKER_COLORS.length],
+              tension:0.25,
+              fill:false
+            };
+          })
+        ]
       },
       options:{
         responsive:true, maintainAspectRatio:false,
@@ -660,12 +686,13 @@ async function load(isRefresh){
 
     document.getElementById('leads-table').innerHTML = `
       <thead><tr>
-        <th>Date</th><th>Broker</th><th>Lead name</th><th>Company</th>
+        <th>Date</th><th>Contacted</th><th>Broker</th><th>Lead name</th><th>Company</th>
         <th>Prospect Type</th><th>Deal Type</th><th>Source</th><th>Responded</th><th>Owns Property</th><th>Qualified</th><th>Reason</th>
       </tr></thead>
       <tbody>${pageRows.map(l => `
         <tr>
           <td>${l.date || '—'}</td>
+          <td>${l.date_contacted || '—'}</td>
           <td>${l.broker}</td>
           <td>${l.name}</td>
           <td>${l.company || '—'}</td>
@@ -676,7 +703,7 @@ async function load(isRefresh){
           <td class="${qualClass(l.owns_commercial)}">${l.owns_commercial || '—'}</td>
           <td class="${qualClass(l.qualified)}">${l.qualified || '—'}</td>
           <td>${l.reason || '—'}</td>
-        </tr>`).join('') || `<tr><td colspan="11" class="empty-note">No leads match these filters.</td></tr>`}
+        </tr>`).join('') || `<tr><td colspan="12" class="empty-note">No leads match these filters.</td></tr>`}
       </tbody>`;
 
     const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
