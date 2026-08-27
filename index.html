@@ -404,7 +404,9 @@ async function load(isRefresh){
 
   let currentRange = 'week';
   let currentBroker = '';   // '' = All Brokers
-  const ALL_BROKERS = [...new Set(data.leads.map(l=>l.broker))].sort();
+  // Sourced from by_broker (not from leads) so a broker who is onboarded but
+  // hasn't logged anything yet still shows up as a filter button.
+  const ALL_BROKERS = (data.by_broker || []).map(b=>b.broker).sort();
 
   function rangeLabel(range){
     if (range==='week') return 'Last work week';
