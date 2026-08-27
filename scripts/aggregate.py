@@ -104,9 +104,11 @@ def read_broker(broker, file_like_or_path):
             if not name:
                 continue
             date = ws.cell(row=r, column=idx["Date"] + 1).value
+            dcontact = ws.cell(row=r, column=idx["Date Contacted"] + 1).value if "Date Contacted" in idx else None
             rows.append({
                 "broker": broker,
                 "date": date.strftime("%Y-%m-%d") if isinstance(date, datetime.datetime) else None,
+                "date_contacted": dcontact.strftime("%Y-%m-%d") if isinstance(dcontact, datetime.datetime) else None,
                 "_date_obj": date if isinstance(date, datetime.datetime) else None,
                 "name": str(name),
                 "company": ws.cell(row=r, column=idx["Company"] + 1).value if "Company" in idx else None,
@@ -190,21 +192,34 @@ def build():
     weeks = defaultdict(lambda: defaultdict(int))
     week_order = []
     for r in all_rows:
-        if not r["_date_obj"]:
-            continue
-        label, monday = week_of(r["_date_obj"])
-        if label not in week_order:
-            week_order.append((monday, label))
-        weeks[label]["total"] += 1
-        weeks[label][r["broker"]] += 1
-        if r["responded"] == "Yes":
-            weeks[label]["responded"] += 1
-    week_order.sort()
+        if r["_date_obj"]:
+            label, monday = week_of(r["_date_obj"])
+            if (monday, label) not in week_order:
+                week_order.append((monday, label))
+            weeks[label]["total"] += 1
+            weeks[label][r["broker"]] += 1
+            if r["responded"] == "Yes":
+                weeks[label]["responded"] += 1
+        # contacts are counted in the week the broker actually reached out
+        if r["date_contacted"]:
+            dc = datetime.datetime.strptime(r["date_contacted"], "%Y-%m-%d")
+            clabel, cmonday = week_of(dc)
+            if (cmonday, clabel) not in week_order:
+                week_order.append((cmonday, clabel))
+            weeks[clabel]["contacted"] += 1
+            weeks[clabel]["contacted_" + r["broker"]] += 1
+    week_order = sorted(set(week_order))
     by_week = []
     for _, label in week_order:
-        row = {"week_of": label, "total": weeks[label]["total"], "responded": weeks[label]["responded"]}
+        row = {
+            "week_of": label,
+            "total": weeks[label]["total"],
+            "responded": weeks[label]["responded"],
+            "contacted": weeks[label]["contacted"],
+        }
         for b in BROKERS:
             row[b["broker"]] = weeks[label].get(b["broker"], 0)
+            row["contacted_" + b["broker"]] = weeks[label].get("contacted_" + b["broker"], 0)
         by_week.append(row)
 
     by_reason = [{"reason": r, "count": sum(1 for x in all_rows if x["reason"] == r)} for r in REASONS]
@@ -214,6 +229,7 @@ def build():
             {
                 "broker": r["broker"],
                 "date": r["date"],
+                "date_contacted": r["date_contacted"],
                 "name": r["name"],
                 "company": r["company"],
                 "prospect_type": r["prospect_type"],
