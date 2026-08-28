@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:54:04.410363+00:00",
+  "generated_at": "2026-08-28T21:18:54.686996+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -10,18 +10,18 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 506,
-    "responded": 284,
-    "response_rate": 0.5613,
+    "leads": 512,
+    "responded": 285,
+    "response_rate": 0.5566,
     "qualified": 3,
     "qualify_rate": 0.0059
   },
   "by_broker": [
     {
       "broker": "Suzana",
-      "leads": 212,
+      "leads": 215,
       "responded": 154,
-      "response_rate": 0.7264,
+      "response_rate": 0.7163,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -44,26 +44,26 @@
     {
       "broker": "Marc",
       "leads": 98,
-      "responded": 8,
-      "response_rate": 0.0816,
+      "responded": 9,
+      "response_rate": 0.0918,
       "qualified": 2,
       "qualify_rate": 0.0204
     },
     {
       "broker": "Odi",
-      "leads": 0,
+      "leads": 3,
       "responded": 0,
-      "response_rate": 0,
+      "response_rate": 0.0,
       "qualified": 0,
-      "qualify_rate": 0
+      "qualify_rate": 0.0
     }
   ],
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 181,
-      "responded": 58,
-      "response_rate": 0.3204
+      "leads": 184,
+      "responded": 59,
+      "response_rate": 0.3207
     },
     {
       "source": "COI Referral",
@@ -214,7 +214,7 @@
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 88,
-      "responded": 46,
+      "responded": 47,
       "contacted": 0,
       "Suzana": 27,
       "contacted_Suzana": 0,
@@ -261,10 +261,10 @@
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 14,
+      "total": 20,
       "responded": 4,
       "contacted": 0,
-      "Suzana": 6,
+      "Suzana": 9,
       "contacted_Suzana": 0,
       "Raph": 8,
       "contacted_Raph": 0,
@@ -272,7 +272,7 @@
       "contacted_Kevin": 0,
       "Marc": 0,
       "contacted_Marc": 0,
-      "Odi": 0,
+      "Odi": 3,
       "contacted_Odi": 0
     }
   ],
@@ -309,10 +309,52 @@
   "leads": [
     {
       "broker": "Suzana",
+      "date": "2026-08-28",
+      "date_contacted": null,
+      "name": "David Emami",
+      "company": null,
+      "prospect_type": null,
+      "type": "Acquisition",
+      "owns_commercial": "No",
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-28",
+      "date_contacted": null,
+      "name": "Mickael Perreault",
+      "company": null,
+      "prospect_type": null,
+      "type": "New Construction",
+      "owns_commercial": "No",
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-28",
+      "date_contacted": null,
+      "name": "Manon Choquette",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "Yes",
+      "source": "Instagram Ad",
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
       "date": "2026-08-27",
       "date_contacted": null,
       "name": "Maria",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": "Refinance",
       "owns_commercial": "No",
@@ -326,7 +368,7 @@
       "date": "2026-08-27",
       "date_contacted": null,
       "name": "Jacob G.",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": "Acquisition",
       "owns_commercial": "No",
@@ -340,7 +382,7 @@
       "date": "2026-08-27",
       "date_contacted": null,
       "name": "gates",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": "Refinance",
       "owns_commercial": "Yes",
@@ -392,11 +434,53 @@
       "reason": null
     },
     {
+      "broker": "Odi",
+      "date": "2026-08-27",
+      "date_contacted": null,
+      "name": "Pelletier J\u00e9r\u00f4me",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "Yes",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-27",
+      "date_contacted": null,
+      "name": "Moshe",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-27",
+      "date_contacted": null,
+      "name": "Redha Lessoued",
+      "company": null,
+      "prospect_type": null,
+      "type": "Acquisition",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
       "broker": "Suzana",
       "date": "2026-08-25",
       "date_contacted": null,
       "name": "Herby Drescher",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": "Construction",
       "owns_commercial": "No",
@@ -410,7 +494,7 @@
       "date": "2026-08-24",
       "date_contacted": null,
       "name": "Thushyan",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": "Acquisition",
       "owns_commercial": "No",
@@ -508,7 +592,7 @@
       "date": "2026-08-20",
       "date_contacted": null,
       "name": "Flobert Kamto",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
@@ -522,7 +606,7 @@
       "date": "2026-08-20",
       "date_contacted": null,
       "name": "Lino Henry Jawichian",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
@@ -536,7 +620,7 @@
       "date": "2026-08-20",
       "date_contacted": null,
       "name": "Jason Egiziano",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
@@ -760,7 +844,7 @@
       "date": "2026-08-17",
       "date_contacted": null,
       "name": "Freddy Siyomvo",
-      "company": "Instagram Ad",
+      "company": null,
       "prospect_type": null,
       "type": null,
       "owns_commercial": null,
@@ -2775,7 +2859,7 @@
       "broker": "Marc",
       "date": "2026-08-06",
       "date_contacted": null,
-      "name": "Pravine",
+      "name": "Pravine Appadoo",
       "company": null,
       "prospect_type": null,
       "type": null,
@@ -2795,8 +2879,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "No",
       "reason": null
     },
     {
