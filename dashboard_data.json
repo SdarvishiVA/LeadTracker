@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T15:10:03.710073+00:00",
+  "generated_at": "2026-08-31T17:52:19.825402+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -10,11 +10,11 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 512,
+    "leads": 517,
     "responded": 285,
-    "response_rate": 0.5566,
+    "response_rate": 0.5513,
     "qualified": 3,
-    "qualify_rate": 0.0059
+    "qualify_rate": 0.0058
   },
   "by_broker": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "broker": "Odi",
-      "leads": 3,
+      "leads": 8,
       "responded": 0,
       "response_rate": 0.0,
       "qualified": 0,
@@ -274,6 +274,22 @@
       "contacted_Marc": 0,
       "Odi": 3,
       "contacted_Odi": 0
+    },
+    {
+      "week_of": "Aug 31 - Sep 5",
+      "total": 5,
+      "responded": 0,
+      "contacted": 0,
+      "Suzana": 0,
+      "contacted_Suzana": 0,
+      "Raph": 0,
+      "contacted_Raph": 0,
+      "Kevin": 0,
+      "contacted_Kevin": 0,
+      "Marc": 0,
+      "contacted_Marc": 0,
+      "Odi": 5,
+      "contacted_Odi": 0
     }
   ],
   "by_disqualification_reason": [
@@ -307,6 +323,76 @@
     }
   ],
   "leads": [
+    {
+      "broker": "Odi",
+      "date": "2026-08-31",
+      "date_contacted": null,
+      "name": "David Holden",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "Yes",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-31",
+      "date_contacted": null,
+      "name": "Majed Bakdach",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-31",
+      "date_contacted": null,
+      "name": "Sandro Cappadoro",
+      "company": null,
+      "prospect_type": null,
+      "type": "Acquisition",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-31",
+      "date_contacted": null,
+      "name": "Chhour hong",
+      "company": null,
+      "prospect_type": null,
+      "type": "Construction",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Odi",
+      "date": "2026-08-31",
+      "date_contacted": null,
+      "name": "Inna Pop",
+      "company": null,
+      "prospect_type": null,
+      "type": "Acquisition",
+      "owns_commercial": "No",
+      "source": null,
+      "responded": null,
+      "qualified": null,
+      "reason": null
+    },
     {
       "broker": "Suzana",
       "date": "2026-08-28",
