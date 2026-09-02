@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:23:21.194704+00:00",
+  "generated_at": "2026-09-02T14:58:14.612569+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -11,8 +11,8 @@
   "errors": [],
   "totals": {
     "leads": 517,
-    "responded": 285,
-    "response_rate": 0.5513,
+    "responded": 287,
+    "response_rate": 0.5551,
     "qualified": 3,
     "qualify_rate": 0.0058
   },
@@ -20,8 +20,8 @@
     {
       "broker": "Suzana",
       "leads": 215,
-      "responded": 154,
-      "response_rate": 0.7163,
+      "responded": 156,
+      "response_rate": 0.7256,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -62,8 +62,8 @@
     {
       "source": "Instagram Ad",
       "leads": 184,
-      "responded": 59,
-      "response_rate": 0.3207
+      "responded": 61,
+      "response_rate": 0.3315
     },
     {
       "source": "COI Referral",
@@ -246,7 +246,7 @@
     {
       "week_of": "Aug 17 - Aug 22",
       "total": 23,
-      "responded": 8,
+      "responded": 10,
       "contacted": 0,
       "Suzana": 19,
       "contacted_Suzana": 0,
@@ -697,8 +697,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "No",
       "reason": null
     },
     {
@@ -711,8 +711,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "No",
       "reason": null
     },
     {
