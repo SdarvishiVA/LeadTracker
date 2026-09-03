@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T14:58:14.612569+00:00",
+  "generated_at": "2026-09-03T14:51:36.006638+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -10,18 +10,18 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 517,
-    "responded": 287,
-    "response_rate": 0.5551,
+    "leads": 530,
+    "responded": 299,
+    "response_rate": 0.5642,
     "qualified": 3,
-    "qualify_rate": 0.0058
+    "qualify_rate": 0.0057
   },
   "by_broker": [
     {
       "broker": "Suzana",
-      "leads": 215,
-      "responded": 156,
-      "response_rate": 0.7256,
+      "leads": 228,
+      "responded": 168,
+      "response_rate": 0.7368,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -61,15 +61,15 @@
   "by_source": [
     {
       "source": "Instagram Ad",
-      "leads": 184,
-      "responded": 61,
-      "response_rate": 0.3315
+      "leads": 185,
+      "responded": 62,
+      "response_rate": 0.3351
     },
     {
       "source": "COI Referral",
-      "leads": 27,
-      "responded": 25,
-      "response_rate": 0.9259
+      "leads": 37,
+      "responded": 34,
+      "response_rate": 0.9189
     },
     {
       "source": "Referral",
@@ -85,9 +85,9 @@
     },
     {
       "source": "Cold Outreach",
-      "leads": 4,
-      "responded": 3,
-      "response_rate": 0.75
+      "leads": 5,
+      "responded": 4,
+      "response_rate": 0.8
     },
     {
       "source": "LinkedIn",
@@ -97,8 +97,8 @@
     },
     {
       "source": "Networking Event",
-      "leads": 23,
-      "responded": 23,
+      "leads": 24,
+      "responded": 24,
       "response_rate": 1.0
     },
     {
@@ -245,10 +245,10 @@
     },
     {
       "week_of": "Aug 17 - Aug 22",
-      "total": 23,
-      "responded": 10,
+      "total": 27,
+      "responded": 14,
       "contacted": 0,
-      "Suzana": 19,
+      "Suzana": 23,
       "contacted_Suzana": 0,
       "Raph": 0,
       "contacted_Raph": 0,
@@ -261,10 +261,10 @@
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 20,
-      "responded": 4,
+      "total": 24,
+      "responded": 7,
       "contacted": 0,
-      "Suzana": 9,
+      "Suzana": 13,
       "contacted_Suzana": 0,
       "Raph": 8,
       "contacted_Raph": 0,
@@ -277,10 +277,10 @@
     },
     {
       "week_of": "Aug 31 - Sep 5",
-      "total": 5,
-      "responded": 0,
+      "total": 10,
+      "responded": 5,
       "contacted": 0,
-      "Suzana": 0,
+      "Suzana": 5,
       "contacted_Suzana": 0,
       "Raph": 0,
       "contacted_Raph": 0,
@@ -323,6 +323,76 @@
     }
   ],
   "leads": [
+    {
+      "broker": "Suzana",
+      "date": "2026-09-02",
+      "date_contacted": null,
+      "name": "Thomas Jubinville-Baron",
+      "company": "BDC",
+      "prospect_type": "Banker",
+      "type": "Refinance",
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-01",
+      "date_contacted": null,
+      "name": "Ziamar Holdings",
+      "company": "Ziamar Holdings",
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Cold Outreach",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-01",
+      "date_contacted": null,
+      "name": "Rami Kaplo",
+      "company": "Spiegel Ryan",
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-01",
+      "date_contacted": null,
+      "name": "Bluvera Holdings",
+      "company": "Bluvera Holdings",
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-01",
+      "date_contacted": null,
+      "name": "O. Satarov",
+      "company": "Transport Fortuna",
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
     {
       "broker": "Odi",
       "date": "2026-08-31",
@@ -403,7 +473,7 @@
       "type": "Acquisition",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -417,7 +487,7 @@
       "type": "New Construction",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -431,7 +501,7 @@
       "type": "Construction",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -445,7 +515,7 @@
       "type": "Refinance",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -459,7 +529,7 @@
       "type": "Acquisition",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -473,7 +543,7 @@
       "type": "Refinance",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -487,7 +557,7 @@
       "type": "Construction",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -571,7 +641,7 @@
       "type": "Construction",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -585,7 +655,63 @@
       "type": "Acquisition",
       "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-24",
+      "date_contacted": null,
+      "name": "F\u00e9lix Bellevue",
+      "company": "Gestion KOB",
+      "prospect_type": "Investor",
+      "type": "Acquisition",
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-24",
+      "date_contacted": null,
+      "name": "Jimy",
+      "company": "Investgain",
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-24",
+      "date_contacted": null,
+      "name": "Chris & Santiago",
+      "company": "Base Spaces",
+      "prospect_type": "Developer",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-24",
+      "date_contacted": null,
+      "name": "Mathieu Gascon",
+      "company": "National Bank RE team",
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -713,6 +839,48 @@
       "source": "Instagram Ad",
       "responded": "Yes",
       "qualified": "No",
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-18",
+      "date_contacted": null,
+      "name": "Sandra",
+      "company": null,
+      "prospect_type": "Other",
+      "type": "Refinance",
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": "No",
+      "reason": "Residential - referred out"
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-18",
+      "date_contacted": null,
+      "name": "Lester",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": "Acquisition",
+      "owns_commercial": null,
+      "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-18",
+      "date_contacted": null,
+      "name": "Alexia",
+      "company": null,
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Networking Event",
+      "responded": "Yes",
+      "qualified": null,
       "reason": null
     },
     {
@@ -935,6 +1103,20 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-17",
+      "date_contacted": null,
+      "name": "Arnau",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": "Refinance",
+      "owns_commercial": null,
+      "source": "COI Referral",
       "responded": "Yes",
       "qualified": null,
       "reason": null
