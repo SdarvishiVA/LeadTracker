@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:51:36.006638+00:00",
+  "generated_at": "2026-09-04T14:47:06.637484+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -11,8 +11,8 @@
   "errors": [],
   "totals": {
     "leads": 530,
-    "responded": 299,
-    "response_rate": 0.5642,
+    "responded": 300,
+    "response_rate": 0.566,
     "qualified": 3,
     "qualify_rate": 0.0057
   },
@@ -28,8 +28,8 @@
     {
       "broker": "Raph",
       "leads": 104,
-      "responded": 87,
-      "response_rate": 0.8365,
+      "responded": 88,
+      "response_rate": 0.8462,
       "qualified": 1,
       "qualify_rate": 0.0096
     },
@@ -62,8 +62,8 @@
     {
       "source": "Instagram Ad",
       "leads": 185,
-      "responded": 62,
-      "response_rate": 0.3351
+      "responded": 63,
+      "response_rate": 0.3405
     },
     {
       "source": "COI Referral",
@@ -262,7 +262,7 @@
     {
       "week_of": "Aug 24 - Aug 29",
       "total": 24,
-      "responded": 7,
+      "responded": 8,
       "contacted": 0,
       "Suzana": 13,
       "contacted_Suzana": 0,
@@ -571,7 +571,7 @@
       "type": "Acquisition",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
