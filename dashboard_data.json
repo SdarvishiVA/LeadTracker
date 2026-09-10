@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:00:25.450388+00:00",
+  "generated_at": "2026-09-10T14:48:51.733913+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -10,18 +10,18 @@
   ],
   "errors": [],
   "totals": {
-    "leads": 542,
-    "responded": 300,
-    "response_rate": 0.5535,
+    "leads": 549,
+    "responded": 308,
+    "response_rate": 0.561,
     "qualified": 3,
     "qualify_rate": 0.0055
   },
   "by_broker": [
     {
       "broker": "Suzana",
-      "leads": 233,
-      "responded": 168,
-      "response_rate": 0.721,
+      "leads": 240,
+      "responded": 176,
+      "response_rate": 0.7333,
       "qualified": 0,
       "qualify_rate": 0.0
     },
@@ -62,14 +62,14 @@
     {
       "source": "Instagram Ad",
       "leads": 197,
-      "responded": 63,
-      "response_rate": 0.3198
+      "responded": 64,
+      "response_rate": 0.3249
     },
     {
       "source": "COI Referral",
-      "leads": 37,
-      "responded": 34,
-      "response_rate": 0.9189
+      "leads": 43,
+      "responded": 40,
+      "response_rate": 0.9302
     },
     {
       "source": "Referral",
@@ -85,9 +85,9 @@
     },
     {
       "source": "Cold Outreach",
-      "leads": 5,
-      "responded": 4,
-      "response_rate": 0.8
+      "leads": 6,
+      "responded": 5,
+      "response_rate": 0.8333
     },
     {
       "source": "LinkedIn",
@@ -261,10 +261,10 @@
     },
     {
       "week_of": "Aug 24 - Aug 29",
-      "total": 36,
-      "responded": 8,
+      "total": 40,
+      "responded": 13,
       "contacted": 0,
-      "Suzana": 18,
+      "Suzana": 22,
       "contacted_Suzana": 0,
       "Raph": 15,
       "contacted_Raph": 0,
@@ -277,10 +277,10 @@
     },
     {
       "week_of": "Aug 31 - Sep 5",
-      "total": 10,
-      "responded": 5,
+      "total": 13,
+      "responded": 8,
       "contacted": 0,
-      "Suzana": 5,
+      "Suzana": 8,
       "contacted_Suzana": 0,
       "Raph": 0,
       "contacted_Raph": 0,
@@ -325,12 +325,40 @@
   "leads": [
     {
       "broker": "Suzana",
+      "date": "2026-09-03",
+      "date_contacted": null,
+      "name": "Matt Bertram",
+      "company": null,
+      "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
       "date": "2026-09-02",
       "date_contacted": null,
       "name": "Thomas Jubinville-Baron",
       "company": "BDC",
       "prospect_type": "Banker",
       "type": "Refinance",
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-02",
+      "date_contacted": null,
+      "name": "Yasmine Lechilli",
+      "company": "BDC",
+      "prospect_type": "Banker",
+      "type": null,
       "owns_commercial": null,
       "source": "COI Referral",
       "responded": "Yes",
@@ -386,6 +414,20 @@
       "name": "O. Satarov",
       "company": "Transport Fortuna",
       "prospect_type": "Investor",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-09-01",
+      "date_contacted": null,
+      "name": "Ariel Hazan",
+      "company": "RBC",
+      "prospect_type": "Banker",
       "type": null,
       "owns_commercial": null,
       "source": "COI Referral",
@@ -711,7 +753,7 @@
       "type": "Refinance",
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
-      "responded": "No",
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -726,6 +768,20 @@
       "owns_commercial": "Yes",
       "source": "Instagram Ad",
       "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-27",
+      "date_contacted": null,
+      "name": "Etienne Laboissonniere",
+      "company": "Trudel",
+      "prospect_type": "Developer",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -810,6 +866,48 @@
       "owns_commercial": "No",
       "source": "Instagram Ad",
       "responded": "No",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-25",
+      "date_contacted": null,
+      "name": "Alain Rondeau",
+      "company": "Rondeau EF / Construction ABD Inc.",
+      "prospect_type": "Developer",
+      "type": "Construction",
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-25",
+      "date_contacted": null,
+      "name": "Miriam Newman",
+      "company": "Vine Group",
+      "prospect_type": "Other",
+      "type": null,
+      "owns_commercial": null,
+      "source": "Cold Outreach",
+      "responded": "Yes",
+      "qualified": null,
+      "reason": null
+    },
+    {
+      "broker": "Suzana",
+      "date": "2026-08-25",
+      "date_contacted": null,
+      "name": "Thierry Cambourieu",
+      "company": null,
+      "prospect_type": "Banker",
+      "type": null,
+      "owns_commercial": null,
+      "source": "COI Referral",
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
