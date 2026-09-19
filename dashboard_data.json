@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:46:55.400540+00:00",
+  "generated_at": "2026-09-19T14:10:07.068974+00:00",
   "demo_mode": false,
   "sources_read_ok": [
     "Suzana",
@@ -11,8 +11,8 @@
   "errors": [],
   "totals": {
     "leads": 549,
-    "responded": 308,
-    "response_rate": 0.561,
+    "responded": 316,
+    "response_rate": 0.5756,
     "qualified": 3,
     "qualify_rate": 0.0055
   },
@@ -44,8 +44,8 @@
     {
       "broker": "Marc",
       "leads": 98,
-      "responded": 9,
-      "response_rate": 0.0918,
+      "responded": 17,
+      "response_rate": 0.1735,
       "qualified": 2,
       "qualify_rate": 0.0204
     },
@@ -62,8 +62,8 @@
     {
       "source": "Instagram Ad",
       "leads": 197,
-      "responded": 64,
-      "response_rate": 0.3249
+      "responded": 72,
+      "response_rate": 0.3655
     },
     {
       "source": "COI Referral",
@@ -214,7 +214,7 @@
     {
       "week_of": "Aug 3 - Aug 8",
       "total": 88,
-      "responded": 47,
+      "responded": 55,
       "contacted": 0,
       "Suzana": 27,
       "contacted_Suzana": 0,
@@ -2909,7 +2909,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -2921,9 +2921,9 @@
       "company": null,
       "prospect_type": null,
       "type": null,
-      "owns_commercial": null,
+      "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -2937,7 +2937,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -2963,9 +2963,9 @@
       "company": null,
       "prospect_type": null,
       "type": null,
-      "owns_commercial": null,
+      "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -3007,7 +3007,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3035,7 +3035,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3049,7 +3049,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3077,7 +3077,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3105,7 +3105,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -3147,7 +3147,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -3161,7 +3161,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3175,7 +3175,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3189,7 +3189,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3203,7 +3203,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3217,7 +3217,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3231,8 +3231,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": " ",
+      "qualified": "No",
       "reason": null
     },
     {
@@ -3245,8 +3245,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "No",
       "reason": null
     },
     {
@@ -3259,7 +3259,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -3273,7 +3273,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3285,9 +3285,9 @@
       "company": null,
       "prospect_type": null,
       "type": null,
-      "owns_commercial": null,
+      "owns_commercial": "No",
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "Yes",
       "qualified": null,
       "reason": null
     },
@@ -3537,7 +3537,7 @@
       "company": null,
       "prospect_type": null,
       "type": null,
-      "owns_commercial": null,
+      "owns_commercial": "No",
       "source": "Instagram Ad",
       "responded": null,
       "qualified": null,
@@ -3567,7 +3567,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3581,7 +3581,7 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
+      "responded": "No",
       "qualified": null,
       "reason": null
     },
@@ -3595,8 +3595,8 @@
       "type": null,
       "owns_commercial": null,
       "source": "Instagram Ad",
-      "responded": null,
-      "qualified": null,
+      "responded": "Yes",
+      "qualified": "No",
       "reason": null
     },
     {
