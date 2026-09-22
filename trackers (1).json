@@ -1,0 +1,58 @@
+[
+  {
+    "broker": "Marc",
+    "name": "Marc_Lead_Tracker.xlsx",
+    "file_id": "2428372160425",
+    "enabled": false,
+    "note": "New template, headers row 2. Verified against the live file."
+  },
+  {
+    "broker": "Odi",
+    "name": "Odi_Lead_Tracker.xlsx",
+    "file_id": "2430542130148",
+    "enabled": false,
+    "note": "New template."
+  },
+  {
+    "broker": "Raph",
+    "name": "Raph_Lead_Tracker_NEW.xlsx",
+    "file_id": "2415423203380",
+    "enabled": false,
+    "note": "New template. File id confirmed in the 22 Sep schema handoff."
+  },
+  {
+    "broker": "Suzana",
+    "name": "Suzana_Lead_Tracker_NEW_TEMPLATE (1).xlsx",
+    "file_id": "2412094141422",
+    "enabled": false,
+    "note": "New template, 321 leads. Confirmed live despite the TEMPLATE filename."
+  },
+  {
+    "broker": "Hung",
+    "name": "Hung_Lead_Tracker.xlsx",
+    "file_id": "2453838851845",
+    "enabled": false,
+    "note": "Still on the OLD schema, headers row 1. Handled by schema.py. Also has 98 phantom date-only rows, see the schema handoff."
+  },
+  {
+    "broker": "Yousif",
+    "name": "Yousif_Lead_Tracker.xlsx",
+    "file_id": "2458872779527",
+    "enabled": false,
+    "note": "New template, no leads yet."
+  },
+  {
+    "broker": "Hussein",
+    "name": "Hussein_Lead_Tracker.xlsx",
+    "file_id": "2458479858233",
+    "enabled": false,
+    "note": "New template, no leads yet."
+  },
+  {
+    "broker": "Kevin",
+    "name": "VA Capital - Lead Contact Tracker_Kevin Yazbek.xlsx",
+    "file_id": "2426484861293",
+    "enabled": false,
+    "note": "New template. This is the live copy (folder 411907034088), not 2330784678295."
+  }
+]
